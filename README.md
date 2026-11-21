@@ -3,7 +3,7 @@
 基于 **Hugo 静态站点** 的个人学术主页，免费托管在 **GitHub Pages**。
 零服务器、零数据库、零运行时费用；自动 HTTPS、移动端适配与 SEO，无任何访问门槛。
 
-> **已上线**：https://huchunguang1998.github.io/ （用户站点，无 sharecode、无 Cookie 门槛，可直接访问并被搜索引擎收录）
+> **已上线**：https://chunguang-hu.github.io/ （用户站点，无 sharecode、无 Cookie 门槛，可直接访问并被搜索引擎收录）
 
 - 论文清单：**ORCID 公共 API** 自动同步（61 条记录 → 58 篇正式成果，征稿/专刊通告已自动排除）
 - 引用指标：**OpenAlex 开放 API** 自动同步（去重后 50 篇、总被引 1123、h-index 20）
@@ -26,7 +26,7 @@
 | 数据源标注 | 每处指标均标注 ORCID / OpenAlex 来源与口径 |
 | canonical / OG / sitemap | 由部署工作流按 Pages 实际地址自动回写 |
 | 站内链接 | 已做「子路径安全」改造（见 §1.1），项目站点下也不会 404 |
-| **结论** | **已上线**：`https://huchunguang1998.github.io/`（用户站点，Source 已设为 GitHub Actions） |
+| **结论** | **已上线**：`https://chunguang-hu.github.io/`（用户站点，Source 已设为 GitHub Actions） |
 
 **过渡期的内置发布链接**（可并存，非必需）：
 `https://chunguang-hu.app.workbuddy.host/?sharecode=UJN6QBDSI3`
@@ -45,8 +45,8 @@
 
 | 方案 | 仓库名 | 网址 | 网址含姓名 |
 |---|---|---|---|
-| **A 用户站点**（本项目已采用） | `huchunguang1998.github.io` | `https://huchunguang1998.github.io/` | 用户名含姓名拼音 |
-| **B 项目站点** | `chunguang-hu`（任意） | `https://huchunguang1998.github.io/chunguang-hu/` | 含姓名，但带路径 |
+| **A 用户站点**（本项目已采用） | `chunguang-hu.github.io` | `https://chunguang-hu.github.io/` | 用户名即姓名拼音 |
+| **B 项目站点** | `<仓库名>`（任意） | `https://chunguang-hu.github.io/<仓库名>/` | 含姓名，但带路径 |
 | **C 自定义域名**（最正式） | 任意 | `https://chunguang-hu.com/` | 完全自有的姓名域名 |
 
 > **本项目已做「子路径安全」改造**：所有 CSS、图片、导航、下载链接都用 Hugo `relURL`
@@ -104,7 +104,7 @@ push 后 Actions 里的「部署到 GitHub Pages」会自动运行（也可在 A
 
 ### 1.6 「网址能不能是我的姓名？」——结论
 
-- 本项目的用户名 `huchunguang1998` 含姓名拼音 → **方案 A** 即 `https://huchunguang1998.github.io/`，免费且含姓名。
+- 本项目的用户名 `chunguang-hu` 即姓名拼音 → **方案 A** 即 `https://chunguang-hu.github.io/`，免费且含姓名。
 - 若用户名不是姓名 → **方案 B** 用姓名做仓库名，或 **方案 C** 自定义域名（最正式、最易记忆）。
 - 平台内置发布链接的第一段 `chunguang-hu` 也是姓名，但属于平台子域名，且带 sharecode 门槛；
   GitHub Pages 才是无门槛、可被搜索引擎收录的公开地址。
