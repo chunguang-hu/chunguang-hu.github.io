@@ -17,7 +17,7 @@
 
       <h2>基本信息</h2>
       <dl class="fact-list">
-        <div><dt>姓名</dt><dd>{{ $p.full_name }}</dd></div>
+        <div><dt>姓名</dt><dd>{{ $p.full_name }}{{ with $p.name_zh }}（{{ . }}）{{ end }}</dd></div>
         <div><dt>研究方向</dt><dd>{{ $p.headline }}</dd></div>
         <div><dt>所在单位</dt><dd>{{ $p.affiliation_zh }} {{ $p.affiliation }}</dd></div>
         <div><dt>所在地</dt><dd>{{ $p.location }}</dd></div>
@@ -27,8 +27,8 @@
 
     <aside class="about-aside">
       <div class="profile-card">
-        <img class="monogram" src="{{ "images/monogram.svg" | relURL }}" alt="" width="88" height="88" loading="lazy">
-        <div class="profile-name">{{ $p.full_name }}</div>
+        {{ partial "avatar.html" (dict "class" "profile-avatar" "size" 96) }}
+        <div class="profile-name">{{ $p.full_name }}{{ with $p.name_zh }}<span class="name-zh">{{ . }}</span>{{ end }}</div>
         <div class="profile-role">{{ $p.tagline }}</div>
         <div class="profile-affil">{{ $p.affiliation_zh }} {{ $p.affiliation }}</div>
         <div class="profile-links">

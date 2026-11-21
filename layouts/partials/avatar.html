@@ -1,0 +1,13 @@
+{{- /* 头像：优先使用个人照片（如 GitHub 头像 URL，自动跟随更新），缺省回退到姓名首字母图案 */ -}}
+{{- $p := site.Data.profile -}}
+{{- $class := .class | default "avatar" -}}
+{{- $size := .size | default 96 -}}
+{{- $alt := .alt | default (printf "%s 的个人照片" $p.full_name) -}}
+{{- $avatar := $p.avatar | default "" -}}
+{{- if hasPrefix $avatar "http" -}}
+<img class="{{ $class }}" src="{{ $avatar }}" alt="{{ $alt }}" width="{{ $size }}" height="{{ $size }}" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+{{- else if $avatar -}}
+<img class="{{ $class }}" src="{{ $avatar | relURL }}" alt="{{ $alt }}" width="{{ $size }}" height="{{ $size }}" loading="lazy" decoding="async">
+{{- else -}}
+<img class="{{ $class }} monogram" src="{{ "images/monogram.svg" | relURL }}" alt="" width="{{ $size }}" height="{{ $size }}" loading="lazy" decoding="async">
+{{- end -}}

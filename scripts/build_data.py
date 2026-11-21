@@ -276,10 +276,9 @@ def main() -> int:
     write_json(DATA / "metrics.json", metrics)
 
     profile = dict(orcid_profile)
-    site_fields = ("name", "tagline", "headline", "affiliation", "affiliation_zh",
+    site_fields = ("name", "name_zh", "tagline", "headline", "affiliation", "affiliation_zh",
                    "location", "email", "email_alt", "avatar", "cv_file", "cv_note", "links")
     profile.update({k: site[k] for k in site_fields if k in site})
-    profile.pop("name_zh", None)  # 不从 ORCID 推断中文名，避免页面出现空占位
     profile["full_name"] = site.get("name") or profile.get("full_name") or "Chunguang Hu"
     profile.setdefault("emails", [])
     if site.get("email") and site["email"] not in profile["emails"]:

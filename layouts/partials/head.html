@@ -1,12 +1,14 @@
 {{- $p := site.Data.profile -}}
 {{- $site := site.Data.site -}}
-{{- $title := cond .IsHome .Site.Title (printf "%s · %s" .Title $p.full_name) -}}
+{{- $displayName := $p.full_name -}}
+{{- with $p.name_zh }}{{ $displayName = printf "%s（%s）" $p.full_name . }}{{ end -}}
+{{- $title := cond .IsHome (printf "%s · 学术主页" $displayName) (printf "%s · %s" .Title $displayName) -}}
 {{- $desc := .Params.description | default (.Site.Params.description | default (printf "%s 的个人学术主页" $p.full_name)) -}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
-<meta name="author" content="{{ $p.full_name }}">
+<meta name="author" content="{{ $displayName }}">
 <meta name="keywords" content="{{ delimit (.Site.Params.keywords | default (slice)) ", " }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta name="theme-color" content="#ffffff">
@@ -60,6 +62,9 @@
   "sameAs" $sameAs
   "affiliation" (dict "@type" "Organization" "name" $p.affiliation)
 -}}
+{{- with $p.name_zh -}}
+{{- $person = merge $person (dict "alternateName" .) -}}
+{{- end -}}
 {{- if .IsHome -}}
 {{ dict "@context" "https://schema.org" "@type" "ProfilePage" "mainEntity" $person | jsonify (dict "indent" "  ") | safeJS }}
 {{- else -}}

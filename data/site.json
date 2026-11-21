@@ -1,5 +1,6 @@
 {
   "name": "Chunguang Hu",
+  "name_zh": "胡纯广",
   "tagline": "城市热环境与可持续城市研究",
   "headline": "城市热环境 · 城市形态 · 蓝绿基础设施 · 生态韧性",
   "affiliation": "Peking University",
@@ -7,7 +8,7 @@
   "location": "Beijing, China",
   "email": "chunguangh@foxmail.com",
   "email_alt": "huchunguang@stu.pku.edu.cn",
-  "avatar": "/images/avatar.svg",
+  "avatar": "https://avatars.githubusercontent.com/u/151156975?v=4",
   "cv_file": "/downloads/cv.pdf",
   "cv_note": "把正式 CV 另存为 static/downloads/cv-official.pdf，并把此处 cv_file 指向它；cv.pdf 由脚本自动生成",
   "links": [

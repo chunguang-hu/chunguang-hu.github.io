@@ -12,7 +12,8 @@
   <div class="wrap hero-inner">
     <div class="hero-copy">
       <p class="eyebrow">Academic Homepage</p>
-      <h1>{{ $p.full_name }}</h1>
+      {{ partial "avatar.html" (dict "class" "hero-avatar" "size" 112) }}
+      <h1>{{ $p.full_name }}{{ with $p.name_zh }}<span class="name-zh">{{ . }}</span>{{ end }}</h1>
       <p class="hero-role">{{ $p.tagline }}</p>
       <p class="lede">研究聚焦城市热环境与热舒适、2D/3D 城市形态的气候响应、蓝绿基础设施降温效应，以及土地利用变化与生态韧性；方法上结合多源遥感与可解释机器学习开展定量分析。</p>
       <ul class="hero-facts">
