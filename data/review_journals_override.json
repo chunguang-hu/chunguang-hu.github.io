@@ -1,0 +1,5 @@
+{
+  "hidden_issns": [],
+  "names": {},
+  "notes": "names 用 ISSN 覆盖期刊显示名；hidden_issns 可隐藏个别期刊。修改后重跑 build_data 即可。"
+}

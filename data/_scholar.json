@@ -1,0 +1,14 @@
+{
+  "fetched_at": "2026-11-21T08:33:53Z",
+  "method": "manual-export",
+  "reason": "Google Scholar / ResearchGate 无公开 API 且禁止自动抓取，改用人工导出 + 人工填写",
+  "profile_url": "https://scholar.google.com/citations?user=XJVXW4YAAAAJ&hl=zh-CN",
+  "metrics": {
+    "citations": null,
+    "h_index": null,
+    "i10_index": null,
+    "last_updated": null
+  },
+  "sources": [],
+  "items": []
+}

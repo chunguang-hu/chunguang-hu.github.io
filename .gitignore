@@ -1,0 +1,30 @@
+# ---- Hugo 构建产物 ----
+/public/
+/resources/
+/_gen/
+.hugo_build.lock
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 本地环境变量（不要提交密钥） ----
+.env
+.env.local
+
+# ---- 缓存与中间文件（自动同步脚本使用） ----
+.cache/
+scripts/.cache/
+*.log
+
+# ---- 编辑器 / 系统 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Node（仅 wrangler 本地部署时使用，非站点运行依赖） ----
+node_modules/
+.wrangler/

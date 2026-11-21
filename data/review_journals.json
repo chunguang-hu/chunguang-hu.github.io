@@ -1,0 +1,1036 @@
+{
+  "generated_at": "2026-11-21T09:34:06Z",
+  "available": true,
+  "total_reviews": 316,
+  "journal_count": 63,
+  "resolved_count": 63,
+  "year_from": 2024,
+  "year_to": 2026,
+  "max_reviews": 63,
+  "items": [
+    {
+      "issn": "2073-445X",
+      "name": "Land",
+      "publisher": "",
+      "reviews": 63,
+      "first_year": 2024,
+      "last_year": 2025,
+      "years": [
+        2024,
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "La",
+      "share": 100
+    },
+    {
+      "issn": "2210-6707",
+      "name": "Sustainable Cities and Society",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 38,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "SC",
+      "share": 60
+    },
+    {
+      "issn": "2071-1050",
+      "name": "Sustainability",
+      "publisher": "",
+      "reviews": 32,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "Su",
+      "share": 51
+    },
+    {
+      "issn": "1470-160X",
+      "name": "Ecological Indicators",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 14,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EI",
+      "share": 22
+    },
+    {
+      "issn": "2072-4292",
+      "name": "Remote Sensing",
+      "publisher": "",
+      "reviews": 14,
+      "first_year": 2024,
+      "last_year": 2025,
+      "years": [
+        2024,
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "RS",
+      "share": 22
+    },
+    {
+      "issn": "1574-9541",
+      "name": "Ecological Informatics",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 12,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EI",
+      "share": 19
+    },
+    {
+      "issn": "2352-9385",
+      "name": "Remote Sensing Applications Society and Environment",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 11,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "RS",
+      "share": 17
+    },
+    {
+      "issn": "2212-0955",
+      "name": "Urban Climate",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 9,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "UC",
+      "share": 14
+    },
+    {
+      "issn": "2220-9964",
+      "name": "ISPRS International Journal of Geo-Information",
+      "publisher": "",
+      "reviews": 9,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "II",
+      "share": 14
+    },
+    {
+      "issn": "0195-9255",
+      "name": "Environmental Impact Assessment Review",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 7,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EI",
+      "share": 11
+    },
+    {
+      "issn": "0360-1323",
+      "name": "Building and Environment",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 5,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "BA",
+      "share": 8
+    },
+    {
+      "issn": "0959-6526",
+      "name": "Journal of Cleaner Production",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 5,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "JO",
+      "share": 8
+    },
+    {
+      "issn": "2073-4433",
+      "name": "Atmosphere",
+      "publisher": "",
+      "reviews": 5,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "At",
+      "share": 8
+    },
+    {
+      "issn": "2076-3417",
+      "name": "Applied Sciences",
+      "publisher": "",
+      "reviews": 5,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "AS",
+      "share": 8
+    },
+    {
+      "issn": "2073-4441",
+      "name": "Water",
+      "publisher": "",
+      "reviews": 4,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "Wa",
+      "share": 6
+    },
+    {
+      "issn": "2413-8851",
+      "name": "Urban Science",
+      "publisher": "",
+      "reviews": 4,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "US",
+      "share": 6
+    },
+    {
+      "issn": "2665-9727",
+      "name": "Environmental and Sustainability Indicators",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 4,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EA",
+      "share": 6
+    },
+    {
+      "issn": "0273-1177",
+      "name": "Advances in Space Research",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 3,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "AI",
+      "share": 5
+    },
+    {
+      "issn": "1569-8432",
+      "name": "International Journal of Applied Earth Observation and Geoinformation",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 3,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "IJ",
+      "share": 5
+    },
+    {
+      "issn": "2075-5309",
+      "name": "Buildings",
+      "publisher": "",
+      "reviews": 3,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "Bu",
+      "share": 5
+    },
+    {
+      "issn": "2673-4117",
+      "name": "Eng—Advances in Engineering",
+      "publisher": "",
+      "reviews": 3,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EA",
+      "share": 5
+    },
+    {
+      "issn": "2673-9909",
+      "name": "AppliedMath",
+      "publisher": "",
+      "reviews": 3,
+      "first_year": 2024,
+      "last_year": 2025,
+      "years": [
+        2024,
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "Ap",
+      "share": 5
+    },
+    {
+      "issn": "0965-8564",
+      "name": "Transportation Research Part A Policy and Practice",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 2,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "TR",
+      "share": 3
+    },
+    {
+      "issn": "1110-9823",
+      "name": "The Egyptian Journal of Remote Sensing and Space Science",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 2,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "TE",
+      "share": 3
+    },
+    {
+      "issn": "1347-2852",
+      "name": "Journal of Asian Architecture and Building Engineering",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "JO",
+      "share": 3
+    },
+    {
+      "issn": "1474-7065",
+      "name": "Physics and Chemistry of the Earth Parts A/B/C",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 2,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "PA",
+      "share": 3
+    },
+    {
+      "issn": "1617-1381",
+      "name": "Journal for Nature Conservation",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "JF",
+      "share": 3
+    },
+    {
+      "issn": "1752-0762",
+      "name": "Geocarto International",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "GI",
+      "share": 3
+    },
+    {
+      "issn": "1753-8955",
+      "name": "International Journal of Digital Earth",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "IJ",
+      "share": 3
+    },
+    {
+      "issn": "1943-7226",
+      "name": "GIScience & Remote Sensing",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "GR",
+      "share": 3
+    },
+    {
+      "issn": "1947-5713",
+      "name": "Geomatics Natural Hazards and Risk",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "GN",
+      "share": 3
+    },
+    {
+      "issn": "1999-4907",
+      "name": "Forests",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "Fo",
+      "share": 3
+    },
+    {
+      "issn": "2045-7758",
+      "name": "Ecology and Evolution",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2024,
+      "last_year": 2025,
+      "years": [
+        2024,
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EA",
+      "share": 3
+    },
+    {
+      "issn": "2076-3263",
+      "name": "Geosciences",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "Ge",
+      "share": 3
+    },
+    {
+      "issn": "2079-9292",
+      "name": "Electronics",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "El",
+      "share": 3
+    },
+    {
+      "issn": "2590-2520",
+      "name": "City and Environment Interactions",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 2,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "CA",
+      "share": 3
+    },
+    {
+      "issn": "2624-6511",
+      "name": "Smart Cities",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "SC",
+      "share": 3
+    },
+    {
+      "issn": "2666-1888",
+      "name": "Sustainable Futures",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 2,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "SF",
+      "share": 3
+    },
+    {
+      "issn": "2772-4271",
+      "name": "Energy Nexus",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 2,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EN",
+      "share": 3
+    },
+    {
+      "issn": "2772-655X",
+      "name": "World Development Sustainability",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2026,
+      "years": [
+        2025,
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "WD",
+      "share": 3
+    },
+    {
+      "issn": "3042-4526",
+      "name": "Wild",
+      "publisher": "",
+      "reviews": 2,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "Wi",
+      "share": 3
+    },
+    {
+      "issn": "0169-2046",
+      "name": "Landscape and Urban Planning",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "LA",
+      "share": 2
+    },
+    {
+      "issn": "0264-2751",
+      "name": "Cities",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "Ci",
+      "share": 2
+    },
+    {
+      "issn": "0924-2716",
+      "name": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "IJ",
+      "share": 2
+    },
+    {
+      "issn": "1350-4851",
+      "name": "Applied Economics Letters",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "AE",
+      "share": 2
+    },
+    {
+      "issn": "1436-3798",
+      "name": "Regional Environmental Change",
+      "publisher": "Springer Nature",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "RE",
+      "share": 2
+    },
+    {
+      "issn": "1466-4283",
+      "name": "Applied Economics",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "AE",
+      "share": 2
+    },
+    {
+      "issn": "1467-9671",
+      "name": "Transactions in GIS",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "TI",
+      "share": 2
+    },
+    {
+      "issn": "1540-756X",
+      "name": "Journal of Sustainable Forestry",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "JO",
+      "share": 2
+    },
+    {
+      "issn": "1993-5153",
+      "name": "Geo-spatial Information Science",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "GS",
+      "share": 2
+    },
+    {
+      "issn": "2151-1535",
+      "name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "IJ",
+      "share": 2
+    },
+    {
+      "issn": "2165-0020",
+      "name": "Urban Planning and Transport Research",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "UP",
+      "share": 2
+    },
+    {
+      "issn": "2211-4645",
+      "name": "Environmental Development",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "ED",
+      "share": 2
+    },
+    {
+      "issn": "2279-7254",
+      "name": "European Journal of Remote Sensing",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EJ",
+      "share": 2
+    },
+    {
+      "issn": "2366-7486",
+      "name": "Advanced Sustainable Systems",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "AS",
+      "share": 2
+    },
+    {
+      "issn": "2474-9508",
+      "name": "Geology Ecology and Landscapes",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "GE",
+      "share": 2
+    },
+    {
+      "issn": "2662-9992",
+      "name": "Humanities and Social Sciences Communications",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "HA",
+      "share": 2
+    },
+    {
+      "issn": "2664-3286",
+      "name": "Urban Governance",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 1,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "UG",
+      "share": 2
+    },
+    {
+      "issn": "2666-6839",
+      "name": "Geography and Sustainability",
+      "publisher": "Elsevier, Inc.",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "GA",
+      "share": 2
+    },
+    {
+      "issn": "2766-9645",
+      "name": "All Earth",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "AE",
+      "share": 2
+    },
+    {
+      "issn": "2831-932X",
+      "name": "Carbon Footprints",
+      "publisher": "OAE Publishing Inc.",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "CF",
+      "share": 2
+    },
+    {
+      "issn": "3004-8311",
+      "name": "Discover Cities",
+      "publisher": "",
+      "reviews": 1,
+      "first_year": 2025,
+      "last_year": 2025,
+      "years": [
+        2025
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "DC",
+      "share": 2
+    },
+    {
+      "issn": "3117-6496",
+      "name": "Environmental Management Smart Solutions",
+      "publisher": "Elsevier Inc.",
+      "reviews": 1,
+      "first_year": 2026,
+      "last_year": 2026,
+      "years": [
+        2026
+      ],
+      "url": "",
+      "resolved_by": "Crossref",
+      "resolved": true,
+      "initials": "EM",
+      "share": 2
+    }
+  ],
+  "source": "ORCID 公共 API（peer-review 记录）+ Crossref / OpenAlex 期刊名解析",
+  "override_file": "data/review_journals_override.json"
+}

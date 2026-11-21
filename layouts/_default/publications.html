@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{- $m := site.Data.metrics -}}
+<div class="wrap">
+  <div class="page-head">
+    <h1>{{ .Title }}</h1>
+    <p class="desc">成果清单来自 ORCID 公共 API 自动同步；单篇被引来自 OpenAlex，并明确标注来源与口径。</p>
+  </div>
+
+  <h2>引用指标</h2>
+  {{ partial "metrics.html" . }}
+
+  {{- if $m.openalex.citations_by_year }}
+  <h2>逐年引用分布</h2>
+  {{- $maxC := 0 -}}
+  {{- range $m.openalex.citations_by_year }}{{- if gt .citations $maxC }}{{ $maxC = .citations }}{{ end }}{{ end -}}
+  <div class="cite-chart">
+    {{- range $m.openalex.citations_by_year }}
+    <div class="cite-row">
+      <span class="cite-year">{{ .year }}</span>
+      <span class="cite-bar"><span class="cite-bar-fill" style="width: {{ if gt $maxC 0 }}{{ printf "%.1f" (math.Div (mul (float .citations) 100) $maxC) }}{{ else }}0{{ end }}%"></span></span>
+      <span class="cite-val">{{ .citations }} <small>被引{{ if .works }} · {{ .works }} 篇{{ end }}</small></span>
+    </div>
+    {{- end }}
+  </div>
+  <p class="source-note">来源：OpenAlex <code>counts_by_year</code>，多个重复作者档案已合并；条长按当年被引归一化，与 Google Scholar 统计口径不同。</p>
+  {{- end -}}
+
+  <h2>全部成果 <span class="source-note" style="display:inline">共 {{ site.Data.publications.total }} 条</span></h2>
+  {{ partial "publications.html" (dict "toolbar" true) }}
+
+  <div class="notice no-print">
+    <strong>数据来源：</strong>成果清单由 <strong>ORCID 公共 API</strong> 自动同步；单篇被引与 h-index 来自
+    <strong>OpenAlex</strong>（重复作者档案已按 DOI 去重）。Google Scholar 与 ResearchGate 无公开 API
+    且不开放程序化访问，本站不做抓取，故不展示其数值。数据更新时间见页脚。
+  </div>
+
+  <p class="no-print"><a class="btn" href="{{ "downloads/publications.bib" | relURL }}">下载全部成果 BibTeX</a></p>
+</div>
+{{ end }}

@@ -1,0 +1,68 @@
+{{- $p := site.Data.profile -}}
+{{- $site := site.Data.site -}}
+{{- $title := cond .IsHome .Site.Title (printf "%s · %s" .Title $p.full_name) -}}
+{{- $desc := .Params.description | default (.Site.Params.description | default (printf "%s 的个人学术主页" $p.full_name)) -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ $p.full_name }}">
+<meta name="keywords" content="{{ delimit (.Site.Params.keywords | default (slice)) ", " }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ "images/og-cover.jpg" | absURL }}">
+<meta property="og:image" content="{{ "images/og-cover.jpg" | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ $title }}">
+
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+
+<!-- Google Scholar 友好的 citation_* 元信息（论文页输出全部条目） -->
+{{- if hasSuffix .RelPermalink "/publications/" -}}
+  {{- range site.Data.publications.items -}}
+    {{- if eq .kind "article" -}}
+<meta name="citation_title" content="{{ .title }}">
+      {{- range .authors }}<meta name="citation_author" content="{{ . }}">{{ end -}}
+      {{- if .year }}<meta name="citation_publication_date" content="{{ .year }}">{{ end -}}
+      {{- if .journal }}<meta name="citation_journal_title" content="{{ .journal }}">{{ end -}}
+      {{- if .doi }}<meta name="citation_doi" content="{{ .doi }}">{{ end -}}
+      {{- if .pdf_url }}<meta name="citation_pdf_url" content="{{ .pdf_url | replaceRE "^/" "" | absURL }}">{{ end -}}
+      {{- if .url }}<meta name="citation_fulltext_html_url" content="{{ .url }}">{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<!-- 结构化数据：Person / ProfilePage / ScholarlyArticle -->
+<script type="application/ld+json">
+{{- $sameAs := slice -}}
+{{- range $p.links }}{{ $sameAs = $sameAs | append .url }}{{ end -}}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" $p.full_name
+  "givenName" $p.given_name
+  "familyName" $p.family_name
+  "url" site.Home.Permalink
+  "email" (printf "mailto:%s" $p.email)
+  "sameAs" $sameAs
+  "affiliation" (dict "@type" "Organization" "name" $p.affiliation)
+-}}
+{{- if .IsHome -}}
+{{ dict "@context" "https://schema.org" "@type" "ProfilePage" "mainEntity" $person | jsonify (dict "indent" "  ") | safeJS }}
+{{- else -}}
+{{ $person | jsonify (dict "indent" "  ") | safeJS }}
+{{- end -}}
+</script>

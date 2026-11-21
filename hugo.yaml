@@ -1,0 +1,88 @@
+# GitHub Pages 默认地址（用户站点）。线上由 .github/workflows/deploy-gh-pages.yml
+# 用 --baseURL 自动覆盖为 Pages 实际地址（含自定义域名），此处仅影响本地预览。
+# 若你的 GitHub 用户名不是 chunguang-hu，改这里即可；线上无需改动。
+baseURL: "https://chunguang-hu.github.io/"
+languageCode: "zh-CN"
+defaultContentLanguage: "zh"
+title: "Chunguang Hu | 学术主页"
+enableGitInfo: false
+enableRobotsTXT: true
+enableEmoji: false
+hasCJKLanguage: true
+
+# 关闭不需要的分类，保持输出干净
+taxonomies: {}
+disableKinds:
+  - taxonomy
+  - term
+  - rss
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+    noClasses: false
+
+menu:
+  main:
+    - name: "首页"
+      url: "/"
+      weight: 10
+    - name: "个人简介"
+      url: "/about/"
+      weight: 20
+    - name: "研究方向"
+      url: "/research/"
+      weight: 30
+    - name: "论文与引用"
+      url: "/publications/"
+      weight: 40
+    - name: "项目"
+      url: "/projects/"
+      weight: 50
+    - name: "教学与服务"
+      url: "/teaching/"
+      weight: 60
+    - name: "CV / 下载"
+      url: "/cv/"
+      weight: 70
+    - name: "联系方式"
+      url: "/contact/"
+      weight: 80
+
+params:
+  # 站点所有者（展示用），如需改动也可直接编辑 data/site.json
+  author: "Chunguang Hu"
+  description: "Chunguang Hu 的个人学术主页：城市热环境、城市形态与蓝绿基础设施、土地利用与生态韧性、遥感与地理空间人工智能。"
+  keywords:
+    - "Chunguang Hu"
+    - "城市热环境"
+    - "城市热岛"
+    - "蓝绿基础设施"
+    - "土地利用"
+    - "遥感"
+    - "Peking University"
+  # 主题外观
+  accent: "#185FA5"
+  # 数据来源展示（页面会明确标注，避免把估算值当作官方数据）
+  orcid: "0009-0003-6832-3957"
+  scholar_id: "XJVXW4YAAAAJ"
+  # 每页列表默认展示条数
+  homePublicationLimit: 6
+
+sitemap:
+  changefreq: "weekly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+outputs:
+  home:
+    - HTML
+  page:
+    - HTML
+  section:
+    - HTML
+
+# 构建时保留 data/ 下的 JSON 供模板读取（Hugo 原生支持 site.Data）

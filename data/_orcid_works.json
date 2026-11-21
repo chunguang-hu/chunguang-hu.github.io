@@ -1,0 +1,1592 @@
+{
+  "orcid": "0009-0003-6832-3957",
+  "source": "https://pub.orcid.org/v3.0/0009-0003-6832-3957/works",
+  "fetched_at": "2026-11-21T08:33:46Z",
+  "count": 61,
+  "items": [
+    {
+      "put_code": 233055073,
+      "title": "From urban greenbelt to peri-urban ecological zone: A counterfactual evaluation of nature-based solutions under the Park City strategy",
+      "subtitle": "",
+      "year": 2027,
+      "date": "2027-02",
+      "journal": "Land Use Policy",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.landusepol.2026.108409",
+      "doi_url": "https://doi.org/10.1016/j.landusepol.2026.108409",
+      "url": "http://dx.doi.org/10.1016/j.landusepol.2026.108409",
+      "external_ids": {
+        "doi": "10.1016/j.landusepol.2026.108409"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Wenqiang Wan",
+        "Xiaobin Jin",
+        "Houbao Fan",
+        "Pengshan Li",
+        "Miao Yang",
+        "Junjun Zhu",
+        "Kunyu Liang",
+        "Suchen Ying",
+        "Shilei Wang",
+        "Chunguang Hu",
+        "Yinkang Zhou"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 207549919,
+      "title": "A parameterization-based framework for quantifying the cooling effects of urban blue–green spaces: Comparative evaluation with buffer and Gaussian models",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-05",
+      "journal": "Remote Sensing of Environment",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.rse.2026.115311",
+      "doi_url": "https://doi.org/10.1016/j.rse.2026.115311",
+      "url": "http://dx.doi.org/10.1016/j.rse.2026.115311",
+      "external_ids": {
+        "doi": "10.1016/j.rse.2026.115311"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Kaixin Li",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 197910995,
+      "title": "Advances in Environmental Response Under the Interaction of Nature and Society (https://www.frontiersin.org/research-topics/76162/advances-in-environmental-response-under-the-interaction-of-nature-and-society)",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-06-30",
+      "journal": "Frontiers in Environmental Science",
+      "type": "journal-issue",
+      "type_label": "专刊",
+      "doi": "10.13140/rg.2.2.24015.14243",
+      "doi_url": "https://doi.org/10.13140/rg.2.2.24015.14243",
+      "url": "https://www.frontiersin.org/research-topics/76162/advances-in-environmental-response-under-the-interaction-of-nature-and-society",
+      "external_ids": {
+        "doi": "10.13140/RG.2.2.24015.14243"
+      },
+      "short_description": "",
+      "kind": "non-article",
+      "authors": [
+        "Chunguang Hu"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 215189015,
+      "title": "Asian Journal of Water, Environment and Pollution - Call for Papers: AI for Urban Environmental Monitoring and Climate Adaptation in Asia (https://accscience.com/journal/AJWEP/special_issues/AI-Urban)",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-05-20",
+      "journal": "",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.13140/rg.2.2.23696.37127",
+      "doi_url": "https://doi.org/10.13140/rg.2.2.23696.37127",
+      "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.23696.37127",
+      "external_ids": {
+        "doi": "10.13140/RG.2.2.23696.37127"
+      },
+      "short_description": "",
+      "kind": "non-article",
+      "authors": [
+        "Chunguang Hu",
+        "Maomao Zhang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 227704326,
+      "title": "Building Footprint Has a Stronger Land Surface Temperature Signal than Building Height across Global Cities",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-10-06",
+      "journal": "Environmental Science & Technology",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1021/acs.est.6c09652",
+      "doi_url": "https://doi.org/10.1021/acs.est.6c09652",
+      "url": "https://doi.org/10.1021/acs.est.6c09652",
+      "external_ids": {
+        "doi": "10.1021/acs.est.6c09652"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Jinyu Hu",
+        "Zhaowu Yu",
+        "Huiwen Zhang",
+        "Yuxia Hu",
+        "Yujia Zhang",
+        "Wenjun Yang",
+        "Wenjuan Ma",
+        "Mincong Wang",
+        "Yuxuan Wang",
+        "Chunguang Hu",
+        "Xin Li",
+        "Xinyu Zhang",
+        "Yuheng Mao",
+        "Xinya Wang",
+        "Zhuo Chen"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 229743201,
+      "title": "Climate and forest form divergences amplify spatiotemporal heterogeneity and environmental inequity in China’s forest cooling services",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-10-01",
+      "journal": "Frontiers in Environmental Science",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3389/fenvs.2026.1938446",
+      "doi_url": "https://doi.org/10.3389/fenvs.2026.1938446",
+      "url": "http://dx.doi.org/10.3389/fenvs.2026.1938446",
+      "external_ids": {
+        "doi": "10.3389/fenvs.2026.1938446"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Feng Yue",
+        "Heng Zheng",
+        "Chunguang Hu",
+        "Jinglin He",
+        "Muyi Li",
+        "Chengyuan Wang",
+        "Zhuoxian Liu"
+      ],
+      "abstract": "<jats:sec>\n                    <jats:title>Introduction</jats:title>\n                    <jats:p>Driven by the coupling of rapid urbanization and climate change, Urban Heat Island (UHI) risks have intensified across China. However, given the nation’s vast geographic expanse, the cooling services of Urban Forests (UF) exhibit significant spatial heterogeneity. Neglecting human-centric perspectives and environmental justice may exacerbate gaps in cooling services and lead to inequitable distribution of environmental benefits.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>This study investigates 368 Chinese cities using the GTNNWR model to quantify three core indicators: Cooling Efficiency (CE), Cooling Capacity (CC), and Cooling Benefit (CB). We systematically explore the spatiotemporal heterogeneity, driving mechanisms, and equity evolution of cooling services.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>The results indicate that: (1) UF demonstrate a pronounced cooling effect with an average CE of 3.61, implying that for every one-standard-unit increase in the UFCI, the LST decreases by 3.61°C; however, the average CC (0.55) and CB (0.33) remain relatively low (CC and CB are both dimensionless). (2) Driving mechanisms exhibit multidimensional differentiation: natural factors exert negative driving effects by regulating thermal baselines and vegetation growth, while socio-economic factors exert positive driving effects through anthropogenic heat emissions and land-use changes. (3) The Gini coefficient for cooling service equity is 0.844, categorized as highly unequal, though this inequality has gradually moderated in recent years.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Discussion</jats:title>\n                    <jats:p>To enhance urban thermal resilience and ensure a balanced supply of cooling services, this study proposes sustainable development strategies from the dual perspective of climate zones-forest forms, providing scientific support for differentiated urban thermal environment governance.</jats:p>\n                  </jats:sec>"
+    },
+    {
+      "put_code": 218519044,
+      "title": "Cooling varies with green space characteristics: Unraveling nonlinear spatial heterogeneity in cooling effects of urban green spaces with geographic explainable AI",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026",
+      "journal": "Environmental Impact Assessment Review",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.eiar.2026.108401",
+      "doi_url": "https://doi.org/10.1016/j.eiar.2026.108401",
+      "url": "https://publons.com/wos-op/publon/82602028/",
+      "external_ids": {
+        "doi": "10.1016/J.EIAR.2026.108401",
+        "wosuid": "WOS:001705650300001"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Zhang, Xinyu",
+        "Hu, Jinyu",
+        "Xia, Tianyu",
+        "Mao, Yuheng",
+        "Li, Xin",
+        "Hu, Chunguang",
+        "Zhang, Jinguang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 193850297,
+      "title": "Decoding the impact of land use change on summer land surface temperature using machine learning: insights from Yingtan, China",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-01",
+      "journal": "Advances in Space Research",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.asr.2025.09.061",
+      "doi_url": "https://doi.org/10.1016/j.asr.2025.09.061",
+      "url": "https://doi.org/10.1016/j.asr.2025.09.061",
+      "external_ids": {
+        "doi": "10.1016/j.asr.2025.09.061"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Feiyan Wu",
+        "Maomao Zhang",
+        "Chunguang Hu",
+        "Xufeng Cui",
+        "Pengtao Wang",
+        "Enqing Chen"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 220618060,
+      "title": "Decoding urban heat and cold cores: spatiotemporal evolution and multidimensional drivers in hyper-urbanized regions",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-07-14",
+      "journal": "Ecological Processes",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1186/s13717-026-00724-2",
+      "doi_url": "https://doi.org/10.1186/s13717-026-00724-2",
+      "url": "https://doi.org/10.1186/s13717-026-00724-2",
+      "external_ids": {
+        "doi": "10.1186/s13717-026-00724-2"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Feng Yue",
+        "Chunguang Hu",
+        "Shunwei Chen",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 213228261,
+      "title": "Discover Cities - Call for Papers: Earth Observation and AI for Urban Nature, Human Exposure, and Climate-Responsive Planning (https://link.springer.com/collections/jdejhffgbe)",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-04-30",
+      "journal": "Discover Cities",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.13140/rg.2.2.32787.85286",
+      "doi_url": "https://doi.org/10.13140/rg.2.2.32787.85286",
+      "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.32787.85286",
+      "external_ids": {
+        "doi": "10.13140/RG.2.2.32787.85286"
+      },
+      "short_description": "",
+      "kind": "non-article",
+      "authors": [
+        "Chunguang Hu"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 207668886,
+      "title": "Driving factors and multi-scenario simulation of ecological resilience in the middle reaches of the Yangtze river metropolitan area",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-02-24",
+      "journal": "Environment, Development and Sustainability",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1007/s10668-026-07320-6",
+      "doi_url": "https://doi.org/10.1007/s10668-026-07320-6",
+      "url": "http://dx.doi.org/10.1007/s10668-026-07320-6",
+      "external_ids": {
+        "doi": "10.1007/s10668-026-07320-6"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Shufei Fu",
+        "Yishen Liao",
+        "Tiangui Lv",
+        "Qiao Zhao",
+        "Anying Chen",
+        "Menghan Yuan",
+        "Chunguang Hu",
+        "Houbao Fan"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 224217389,
+      "title": "Dynamic changes in land use/land cover and their impact on urban thermal environment: insights from remote sensing and predictive modeling",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-11",
+      "journal": "Advances in Space Research",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.asr.2026.08.039",
+      "doi_url": "https://doi.org/10.1016/j.asr.2026.08.039",
+      "url": "https://doi.org/10.1016/j.asr.2026.08.039",
+      "external_ids": {
+        "doi": "10.1016/j.asr.2026.08.039"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Weizheng Ye",
+        "Enqing Chen",
+        "Chunguang Hu",
+        "Cheng Zhang",
+        "Maomao Zhang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 199426232,
+      "title": "How geographic barriers mitigate urban PM2.5 pollution: Evidence from 282 cities in China",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-02",
+      "journal": "Building and Environment",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.buildenv.2025.114126",
+      "doi_url": "https://doi.org/10.1016/j.buildenv.2025.114126",
+      "url": "https://doi.org/10.1016/j.buildenv.2025.114126",
+      "external_ids": {
+        "doi": "10.1016/j.buildenv.2025.114126"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Anjian Song",
+        "Zhiyuan Zhang",
+        "Chunguang Hu",
+        "Luyao Wang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 203507663,
+      "title": "Identification and tracking of heat and cold cores in highly urbanized areas: spatiotemporal characteristics and evolutionary patterns",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-07",
+      "journal": "International Journal of Digital Earth",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1080/17538947.2026.2616889",
+      "doi_url": "https://doi.org/10.1080/17538947.2026.2616889",
+      "url": "http://dx.doi.org/10.1080/17538947.2026.2616889",
+      "external_ids": {
+        "doi": "10.1080/17538947.2026.2616889"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Feng Yue",
+        "Chunguang Hu",
+        "Shunwei Chen",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 215434419,
+      "title": "Mapping ecological inequality across the urban-rural gradient of the Loess Plateau",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-06",
+      "journal": "Urban Climate",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.uclim.2026.102928",
+      "doi_url": "https://doi.org/10.1016/j.uclim.2026.102928",
+      "url": "http://dx.doi.org/10.1016/j.uclim.2026.102928",
+      "external_ids": {
+        "doi": "10.1016/j.uclim.2026.102928"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Jing Cheng",
+        "Rentao Liu",
+        "Peng Wang",
+        "Wenzhi Zhao",
+        "Chunguang Hu",
+        "Houbao Fan"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 230967934,
+      "title": "MNOPNet: A Lightweight Rotated Object Detection Network for Small-Scale Wildfire Detection",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026",
+      "journal": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1109/jstars.2026.3739890",
+      "doi_url": "https://doi.org/10.1109/jstars.2026.3739890",
+      "url": "https://doi.org/10.1109/JSTARS.2026.3739890",
+      "external_ids": {
+        "doi": "10.1109/JSTARS.2026.3739890"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Wenjie Xu",
+        "Xin Li",
+        "Mengmeng Zhang",
+        "Yuxuan Zou",
+        "Xiaohuan Gu",
+        "Chunguang Hu",
+        "Jianqing Zhao",
+        "Zhaoyang Han",
+        "Demin Gao",
+        "Ting Yun",
+        "Zhou Gu"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 219625138,
+      "title": "Optimizing blue–green infrastructure for sustainable urban cooling: nonlinear thresholds of internal attributes and built environments",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-07-02",
+      "journal": "International Journal of Sustainable Development &  World Ecology",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1080/13504509.2026.2698121",
+      "doi_url": "https://doi.org/10.1080/13504509.2026.2698121",
+      "url": "http://dx.doi.org/10.1080/13504509.2026.2698121",
+      "external_ids": {
+        "doi": "10.1080/13504509.2026.2698121"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Jianqiao Zhang",
+        "Chunguang Hu",
+        "Kaixin Li",
+        "Wenfeng Gu",
+        "Fenfen Yang",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 231104854,
+      "title": "Regulating thermal comfort via 2D and 3D urban morphology heterogeneity: Evidence from Beijing's local climate zones",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-12",
+      "journal": "Cities",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.cities.2026.107727",
+      "doi_url": "https://doi.org/10.1016/j.cities.2026.107727",
+      "url": "http://dx.doi.org/10.1016/j.cities.2026.107727",
+      "external_ids": {
+        "doi": "10.1016/j.cities.2026.107727"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 226309012,
+      "title": "Spatially heterogeneous impacts of 2D/3D urban form on thermal comfort: insights from urban functional zones",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-09",
+      "journal": "Energy and Buildings",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.enbuild.2026.118156",
+      "doi_url": "https://doi.org/10.1016/j.enbuild.2026.118156",
+      "url": "http://dx.doi.org/10.1016/j.enbuild.2026.118156",
+      "external_ids": {
+        "doi": "10.1016/j.enbuild.2026.118156"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Chunqiang Li",
+        "Houbao Fan",
+        "Xiaohuan Gu",
+        "Xin Li",
+        "Jinyu Hu",
+        "Peng Zeng",
+        "Jianqing Zhao"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 202357805,
+      "title": "Spatiotemporal non-stationarity and heterogeneity in atmospheric aerosol pollution regulation by subtropical urban green space: A GTNNWR-Based study in Shenzhen, China",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-03",
+      "journal": "Environmental Pollution",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.envpol.2026.127674",
+      "doi_url": "https://doi.org/10.1016/j.envpol.2026.127674",
+      "url": "https://doi.org/10.1016/j.envpol.2026.127674",
+      "external_ids": {
+        "doi": "10.1016/j.envpol.2026.127674"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Feng Yue",
+        "Zhuoxian Liu",
+        "Chunguang Hu",
+        "Heng Zheng",
+        "Jinglin He"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 209587789,
+      "title": "Unraveling multifactorial drivers of urban phenology through precise quantification with high-spatiotemporal NDVI fusion",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-06",
+      "journal": "Urban Forestry & Urban Greening",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.ufug.2026.129413",
+      "doi_url": "https://doi.org/10.1016/j.ufug.2026.129413",
+      "url": "http://dx.doi.org/10.1016/j.ufug.2026.129413",
+      "external_ids": {
+        "doi": "10.1016/j.ufug.2026.129413"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Xinyi Yang",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 200796413,
+      "title": "Unveiling spatially differentiated drivers of PM2.5 concentrations: Insights from multi-model urban environmental analysis",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-05",
+      "journal": "Atmospheric Pollution Research",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.apr.2025.102880",
+      "doi_url": "https://doi.org/10.1016/j.apr.2025.102880",
+      "url": "https://doi.org/10.1016/j.apr.2025.102880",
+      "external_ids": {
+        "doi": "10.1016/j.apr.2025.102880"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Anjian Song",
+        "Chunguang Hu",
+        "Yajuan Liang",
+        "Maomao Zhang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 217649794,
+      "title": "Unveiling urban heat exposure risk networks: a network analysis approach for mitigating thermal discomfort",
+      "subtitle": "",
+      "year": 2026,
+      "date": "2026-11",
+      "journal": "Landscape and Urban Planning",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.landurbplan.2026.105725",
+      "doi_url": "https://doi.org/10.1016/j.landurbplan.2026.105725",
+      "url": "https://doi.org/10.1016/j.landurbplan.2026.105725",
+      "external_ids": {
+        "doi": "10.1016/j.landurbplan.2026.105725"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 179621428,
+      "title": "Decoding spatial patterns of urban thermal comfort: Explainable machine learning reveals drivers of thermal perception",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025-07",
+      "journal": "Environmental Impact Assessment Review",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.eiar.2025.107895",
+      "doi_url": "https://doi.org/10.1016/j.eiar.2025.107895",
+      "url": "http://dx.doi.org/10.1016/j.eiar.2025.107895",
+      "external_ids": {
+        "doi": "10.1016/j.eiar.2025.107895"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 193214184,
+      "title": "Differentiated landscape pattern transformation strategies drive territorial space carbon neutrality: A path exploration based on mixed land use units",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025-10",
+      "journal": "Sustainable Cities and Society",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.scs.2025.106865",
+      "doi_url": "https://doi.org/10.1016/j.scs.2025.106865",
+      "url": "https://doi.org/10.1016/j.scs.2025.106865",
+      "external_ids": {
+        "doi": "10.1016/j.scs.2025.106865"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Houbao Fan",
+        "Xiaobin Jin",
+        "Junjun Zhu",
+        "Zhouyao Zhang",
+        "Chunguang Hu",
+        "Han Hu",
+        "Xiaoya Du",
+        "Yinkang Zhou"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 176889838,
+      "title": "Evaluating the Influence of Environmental, Social, and Governance (ESG) Performance on Green Technology Innovation: Based on Chinese A-Share Listed Companies",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025-01-28",
+      "journal": "Sustainability",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/su17031085",
+      "doi_url": "https://doi.org/10.3390/su17031085",
+      "url": "https://doi.org/10.3390/su17031085",
+      "external_ids": {
+        "doi": "10.3390/su17031085"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Kun Liang",
+        "Zhihong Cao",
+        "Sheng Tang",
+        "Chunguang Hu",
+        "Maomao Zhang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 181852013,
+      "title": "Investigating the quantitative impact of the vegetation indices on the urban thermal comfort based on machine learning: A case study of the Qinhuai River Basin, China",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025-05",
+      "journal": "Sustainable Cities and Society",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.scs.2025.106357",
+      "doi_url": "https://doi.org/10.1016/j.scs.2025.106357",
+      "url": "https://doi.org/10.1016/j.scs.2025.106357",
+      "external_ids": {
+        "doi": "10.1016/j.scs.2025.106357"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Jianqing Zhao",
+        "Chunguang Hu",
+        "Zhuoqi Li",
+        "Maomao Zhang",
+        "Houbao Fan",
+        "Kaili Li",
+        "Ruidi Yuan"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 179949637,
+      "title": "Spatiotemporal Dynamics and Response of Land Surface Temperature and Kernel Normalized Difference Vegetation Index in Yangtze River Economic Belt, China: Multi-Method Analysis",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025-03",
+      "journal": "Land",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/land14030598",
+      "doi_url": "https://doi.org/10.3390/land14030598",
+      "url": "https://www.mdpi.com/2073-445X/14/3/598",
+      "external_ids": {
+        "doi": "10.3390/land14030598"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Hongjia Zhu",
+        "Ao Wang",
+        "Pengtao Wang",
+        "Chunguang Hu",
+        "Maomao Zhang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 177625439,
+      "title": "The Impact of Policy Quantification on Rural Spatial Development in Suburbs: A Case Study of Dalian’s Main Urban Area",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025-01",
+      "journal": "Land",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/land14010153",
+      "doi_url": "https://doi.org/10.3390/land14010153",
+      "url": "https://www.mdpi.com/2073-445X/14/1/153",
+      "external_ids": {
+        "doi": "10.3390/land14010153"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Jiaxiang Wang",
+        "Zehao Cao",
+        "Tian Chen",
+        "Chunguang Hu"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 183236060,
+      "title": "The landscape pattern characteristics of urban built-up land significantly influence urban thermal comfort: Evidence from large cities in China",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025-05",
+      "journal": "Sustainable Cities and Society",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.scs.2025.106402",
+      "doi_url": "https://doi.org/10.1016/j.scs.2025.106402",
+      "url": "https://doi.org/10.1016/j.scs.2025.106402",
+      "external_ids": {
+        "doi": "10.1016/j.scs.2025.106402"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Hui Zeng"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 218519043,
+      "title": "Towards Intelligent Urban Park Development Monitoring: LLM Agents for Multi-Modal Information Fusion and Analysis",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025",
+      "journal": "Proceedings of International Geoscience and Remote Sensing Symposium (IGARSS)",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1109/igarss55030.2025.11243605",
+      "doi_url": "https://doi.org/10.1109/igarss55030.2025.11243605",
+      "url": "https://publons.com/wos-op/publon/83869286/",
+      "external_ids": {
+        "doi": "10.1109/IGARSS55030.2025.11243605",
+        "wosuid": "WOS:001704613000514"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Xiao, Zixuan",
+        "Hu, Chunguang",
+        "Ma, Jun"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 188808366,
+      "title": "Unveiling the impact of 2D/3D urban morphology on thermal comfort across urban-rural gradients using machine learning",
+      "subtitle": "",
+      "year": 2025,
+      "date": "2025-11",
+      "journal": "Energy and Buildings",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.enbuild.2025.116220",
+      "doi_url": "https://doi.org/10.1016/j.enbuild.2025.116220",
+      "url": "https://doi.org/10.1016/j.enbuild.2025.116220",
+      "external_ids": {
+        "doi": "10.1016/j.enbuild.2025.116220"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Yuxuan Tao",
+        "Maomao Zhang",
+        "Houbao Fan",
+        "Nan Xu",
+        "Yucheng Sun",
+        "Ruidi Yuan",
+        "Jianqing Zhao"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 159319693,
+      "title": "A Study of the Spatiotemporal Evolution Patterns and Coupling Coordination between Ecosystem Service Values and Habitat Quality in Diverse Scenarios: The Case of Chengdu Metropolitan Area, China",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024-04-29",
+      "journal": "Sustainability",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/su16093741",
+      "doi_url": "https://doi.org/10.3390/su16093741",
+      "url": "http://dx.doi.org/10.3390/su16093741",
+      "external_ids": {
+        "doi": "10.3390/su16093741",
+        "wosuid": "WOS:001219832400001"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Gaoliu Huang",
+        "Shiming Feng",
+        "Chunguang Hu"
+      ],
+      "abstract": "<jats:p>The global ecological decline resulting from urban development presents a significant challenge for numerous regions striving to reconcile conservation efforts with developmental needs. This study explores the relationship between ecosystem service value (ESV) and habitat quality (HQ) under various scenarios to elucidate prospective development trajectories. This study utilized the PLUS model to simulate land use patterns in the Chengdu metropolitan area across four distinct development scenarios. Furthermore, it employed the equivalent factor method and the Invest model to quantify ESV and HQ values, and investigated the coupling coordination between ESV and HQ for each city using a coupling coordination model (CCM). The findings are as follows: (1) Between 2000 and 2020, land use in the Chengdu metropolitan area primarily expanded through the development of construction land. (2) Concurrently, ESV demonstrated a fluctuating trend characterized by an initial decline succeeded by an upsurge, culminating under the Development–Ecological Balance Scenario. Likewise, HQ displayed a similar fluctuating pattern with an initial decline succeeded by an increase, reaching its zenith under the Ecological Dominance Scenario. (3) The coupling coordination between ESV and HQ exhibited variability across cities and scenarios. Ultimately, this study offers a distinctive perspective on evaluating the interplay between urban development and conservation, providing valuable insights for promoting sustainable development in other regions.</jats:p>"
+    },
+    {
+      "put_code": 168748744,
+      "title": "An Algorithm for Predicting Vehicle Behavior in High-Speed Scenes Using Visual and Dynamic Graphical Neural Network Inference",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024-10-02",
+      "journal": "Applied Sciences",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/app14198873",
+      "doi_url": "https://doi.org/10.3390/app14198873",
+      "url": "https://doi.org/10.3390/app14198873",
+      "external_ids": {
+        "doi": "10.3390/app14198873",
+        "wosuid": "WOS:001332189800001"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Menghao Li",
+        "Miao Liu",
+        "Weiwei Zhang",
+        "Wenfeng Guo",
+        "Enqing Chen",
+        "Chunguang Hu",
+        "Maomao Zhang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 167320507,
+      "title": "Decoding the Characteristics of Ecosystem Services and the Scale Effect in the Middle Reaches of the Yangtze River Urban Agglomeration: Insights for Planning and Management",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024-09-11",
+      "journal": "Sustainability",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/su16187952",
+      "doi_url": "https://doi.org/10.3390/su16187952",
+      "url": "https://doi.org/10.3390/su16187952",
+      "external_ids": {
+        "wosuid": "WOS:001323119800001",
+        "doi": "10.3390/su16187952"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Ruiqi Zhang",
+        "Chunguang Hu",
+        "Yucheng Sun"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 171742414,
+      "title": "Impact of Urban Surfaces on Microclimatic Conditions and Thermal Comfort in Burdur, Türkiye",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024-11-14",
+      "journal": "Atmosphere",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/atmos15111375",
+      "doi_url": "https://doi.org/10.3390/atmos15111375",
+      "url": "https://doi.org/10.3390/atmos15111375",
+      "external_ids": {
+        "doi": "10.3390/atmos15111375"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Maomao Zhang",
+        "İlker Yiğit",
+        "Fatih Adigüzel",
+        "Chunguang Hu",
+        "Enqing Chen",
+        "Ahmet Emrah Siyavuş",
+        "Necmettin Elmastaş",
+        "Mustafa Ustuner",
+        "Aşır Yüksel Kaya"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 171712291,
+      "title": "Spatiotemporal Changes and Influencing Factors of the Coupled Production–Living–Ecological Functions in the Yellow River Basin, China",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024-11",
+      "journal": "Land",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/land13111909",
+      "doi_url": "https://doi.org/10.3390/land13111909",
+      "url": "https://www.mdpi.com/2073-445X/13/11/1909",
+      "external_ids": {
+        "doi": "10.3390/land13111909"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Zidao Lu",
+        "Maomao Zhang",
+        "Chunguang Hu",
+        "Lianlong Ma",
+        "Enqing Chen",
+        "Cheng Zhang",
+        "Guozhen Xia"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 170215739,
+      "title": "Tracking the impact of the land cover change on the spatial-temporal distribution of the thermal comfort: Insights from the Qinhuai River Basin, China",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024-12",
+      "journal": "Sustainable Cities and Society",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1016/j.scs.2024.105916",
+      "doi_url": "https://doi.org/10.1016/j.scs.2024.105916",
+      "url": "https://doi.org/10.1016/j.scs.2024.105916",
+      "external_ids": {
+        "wosuid": "WOS:001344158900001",
+        "doi": "10.1016/j.scs.2024.105916"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Maomao Zhang",
+        "Gaoliu Huang",
+        "Zhuoqi Li",
+        "Yucheng Sun",
+        "Jianqing Zhao"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967290,
+      "title": "城市季节性地表温度模式及其驱动因素分析——以重庆市为例",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024",
+      "journal": "美丽中国，共建共治共享——2024中国城市规划年会论文集（19山地城乡规划）",
+      "type": "conference-paper",
+      "type_label": "会议论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {},
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "孙玉成",
+        "胡纯广",
+        "张睿琪",
+        "谢宇薇",
+        "李卓起"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967284,
+      "title": "多尺度生态系统服务时空演变特征及优化策略——以长江中游城市群为例",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024",
+      "journal": "美丽中国，共建共治共享——2024中国城市规划年会论文集（09城市生态规划）",
+      "type": "conference-paper",
+      "type_label": "会议论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {},
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "孙玉成",
+        "李卓起",
+        "胡纯广"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967282,
+      "title": "武汉市蓝绿空间格局对城市热舒适度的影响",
+      "subtitle": "",
+      "year": 2024,
+      "date": "2024",
+      "journal": "美丽中国，共建共治共享——2024中国城市规划年会论文集（09城市生态规划）",
+      "type": "conference-paper",
+      "type_label": "会议论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {},
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "黄高流",
+        "王智勇",
+        "胡纯广"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 147350756,
+      "title": "Exploring the seasonal relationship between spatial and temporal features of land surface temperature and its potential drivers: the case of Chengdu metropolitan area, China",
+      "subtitle": "",
+      "year": 2023,
+      "date": "2023-08-31",
+      "journal": "Frontiers in Earth Science",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3389/feart.2023.1226795",
+      "doi_url": "https://doi.org/10.3389/feart.2023.1226795",
+      "url": "http://dx.doi.org/10.3389/feart.2023.1226795",
+      "external_ids": {
+        "eid": "2-s2.0-85171426831",
+        "doi": "10.3389/feart.2023.1226795",
+        "wosuid": "WOS:001066936900001"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Gaoliu Huang",
+        "Zhiyong Wang"
+      ],
+      "abstract": "<jats:p>Global climate change and the process of urbanization have had a significant impact on land surface temperature (LST). This study selects the Chengdu metropolitan area in China as a typical research subject. Based on the seasonal heterogeneity and spatial distribution characteristics of LST, different types of potential influencing factors are selected for Principal Component Analysis (PCA) to determine the categories of these factors. Subsequently, a multiple linear regression analysis is conducted to explore the relationship between LST and the identified potential influencing factors during different seasons. The findings of this study suggest that the regions with high temperatures and secondary high temperatures in the Chengdu metropolitan area are primarily concentrated in Chengdu and its adjacent localities, exhibiting noticeable seasonal variations. In the summer, high-temperature zone and second high-temperature zone of the LST show a central aggregation pattern. In the transition season, the high-temperature zone of the LST presents a “large dispersion, small aggregation” pattern. In the winter, it presents a dispersed pattern. In terms of influencing factors, elevation, slope, wind speed, humidity, and surface vegetation cover related to natural geographical conditions have a significant impact on LST, reaching a peak during the transition season. Factors associated with social and economic conditions, such as population size, nighttime light index, and road density, have a pronounced effect on LST during the summer season. During winter, LST is mainly influenced by landscape pattern-related factors such as Shannon Diversity Index, Edge Density, Largest Patch Index, and Patch Density. This study not only assesses the seasonal and spatial characteristics of LST in the Chengdu metropolitan area but also provides valuable insights for formulating phased measures to mitigate the Urban Heat Island (UHI) in other regions.</jats:p>"
+    },
+    {
+      "put_code": 147350613,
+      "title": "Multi-Scenario Simulation of the Impact of Land Use Change on the Ecosystem Service Value in the Suzhou-Wuxi-Changzhou Metropolitan Area, China",
+      "subtitle": "",
+      "year": 2023,
+      "date": "2023-11-22",
+      "journal": "Chinese Geographical Science",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1007/s11769-023-1397-2",
+      "doi_url": "https://doi.org/10.1007/s11769-023-1397-2",
+      "url": "http://dx.doi.org/10.1007/s11769-023-1397-2",
+      "external_ids": {
+        "doi": "10.1007/s11769-023-1397-2",
+        "wosuid": "WOS:001106081800002",
+        "eid": "2-s2.0-85177443904"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Bin Wang",
+        "Chunguang Hu",
+        "Yushuo Zhang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967288,
+      "title": "成都都市圈碳储量时空演变特征及规划建议",
+      "subtitle": "",
+      "year": 2023,
+      "date": "2023",
+      "journal": "人民城市，规划赋能——2023中国城市规划年会论文集（05城市规划新技术应用）",
+      "type": "conference-paper",
+      "type_label": "会议论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {},
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "张旭",
+        "胡纯广"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967292,
+      "title": "武汉城市圈城镇化与生态系统健康耦合协调的空间特征与优化策略研究",
+      "subtitle": "",
+      "year": 2023,
+      "date": "2023",
+      "journal": "人民城市，规划赋能——2022中国城市规划年会论文集（08城市生态规划）",
+      "type": "conference-paper",
+      "type_label": "会议论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {},
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "胡纯广",
+        "王智勇"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967283,
+      "title": "武汉市土地利用演化仿真模拟及优化策略研究",
+      "subtitle": "",
+      "year": 2023,
+      "date": "2023",
+      "journal": "人民城市，规划赋能——2023中国城市规划年会论文集（05城市规划新技术应用）",
+      "type": "conference-paper",
+      "type_label": "会议论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {},
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "胡纯广",
+        "王智勇",
+        "黄高流"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967286,
+      "title": "武汉市绿地系统格局对城市热岛效应的影响",
+      "subtitle": "",
+      "year": 2023,
+      "date": "2023",
+      "journal": "人民城市，规划赋能——2023中国城市规划年会论文集（08城市生态规划）",
+      "type": "conference-paper",
+      "type_label": "会议论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {},
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "胡纯广",
+        "王智勇"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 133773805,
+      "title": "Combining MSPA-MCR Model to Evaluate the Ecological Network in Wuhan, China",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022-01-29",
+      "journal": "Land",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/land11020213",
+      "doi_url": "https://doi.org/10.3390/land11020213",
+      "url": "http://dx.doi.org/10.3390/land11020213",
+      "external_ids": {
+        "wosuid": "WOS:000763022400001",
+        "eid": "2-s2.0-85124098191",
+        "doi": "10.3390/land11020213"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Ziyi Wang",
+        "Yu Wang",
+        "Dongqi Sun",
+        "Jingxiang Zhang"
+      ],
+      "abstract": "<jats:p>Rapid urbanization development and construction has seriously threatened the connectivity of habitat patches in cities and hindered the construction of ecological networks in highly urbanized areas. Among them, China is affected by early compressed urbanization, and the broken ecological space in cities and towns has attracted the extensive interest of researchers. To avoid the subjective randomness and single analysis of ecological space in urbanization areas, this paper takes the central urban area of Wuhan as the main research area. It comprehensively evaluates the ecological network space by combining the MSPA-MCR model. The main conclusions are as follows: (1) Identifying the ecological landscape types with important ecological significance in the study area: Core (88.29%), Islet (0.25%), Perf (0.63%), Edge (9.74%), Loop (0.22%), and Bridge (0.14%). Through the dPC landscape index, seven important ecological sources south of the middle reaches of the Yangtze River were identified. (2) According to the comprehensive factors of natural and human factors constructed by the MCR model, the minimum cumulative ecological resistance surface was established, with an average value of 2.65, a maximum value of 4.70, and a minimum value of 1.00, showing a trend that the ecological resistance values in the central and eastern parts are lower than those in the western part. (3) According to the standard deviation ellipse, the distribution direction of NE–SW in ecological sources was analyzed. The ecological sources distributed in the north were less, and the spatial distribution was scattered on the whole. The strong global positive correlation and local spatial aggregation characteristics of ecological resistance surface were evaluated according to spatial autocorrelation. Based on the gravity model, the interaction intensity of ecological corridors between source areas was evaluated, and the importance of ecological corridor protection and restoration was quantitatively analyzed. The research results provide scientific and reasonable references and a basis for ecological planning of Wuhan central city.</jats:p>"
+    },
+    {
+      "put_code": 133773823,
+      "title": "Construction, Evaluation, and Optimization of a Regional Ecological Security Pattern Based on MSPA–Circuit Theory Approach",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022-12-03",
+      "journal": "International Journal of Environmental Research and Public Health",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/ijerph192316184",
+      "doi_url": "https://doi.org/10.3390/ijerph192316184",
+      "url": "http://dx.doi.org/10.3390/ijerph192316184",
+      "external_ids": {
+        "doi": "10.3390/ijerph192316184",
+        "wosuid": "WOS:000896358300001",
+        "eid": "2-s2.0-85143730691"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Zhiyong Wang",
+        "Gaoliu Huang",
+        "Yichen Ding"
+      ],
+      "abstract": "<jats:p>Ecological security is crucial for regional sustainable development; however, as modern urbanization highlights ecological security challenges, major challenges have arisen. In this paper, we take the ecological region around Taihu Lake, China, as a typical research site, extract important ecological sources and key nodes using morphological spatial pattern analysis (MSPA) and circuit theory, and propose a regulatory framework for the ecological security pattern (ESP) of the ecological region based on the spatial characteristics of sources, corridors, and nodes. We obtained the following results: (1) The ESP includes 20 ecological sources, 37 ecological corridors, 36 critical ecological protection nodes, and 24 key ecological restoration nodes. (2) Most ecological sources are large and concentrated in western Zhejiang and west of Taihu Lake, which are both important ecological sources and ecological resistance surfaces. (3) The ecological corridors spread east, west, and south from Taihu Lake, with high network connectivity. (4) Shanghai serves as the central node, with the Su-Xi-Chang town cluster and the Qiantang River town cluster serving as the extension axes for the ecological resistance hot-spot area. The center of the elliptical ecological resistance surface (standard deviation) lies in Suzhou City, located on the east shore of Taihu Lake. (5) Ecological nodes were mostly located in ecological corridors or junctions. A “four zones and one belt” pattern is suggested in order to make the land around Taihu Lake more connected and stable ecologically. This study can be used as a guide for building and improving an ecological safety network.</jats:p>"
+    },
+    {
+      "put_code": 133773828,
+      "title": "Coupling and Coordination Relationship between the Tourism Economy and Ecosystem Service Value in Southern Jiangsu, China",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022-12-02",
+      "journal": "International Journal of Environmental Research and Public Health",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/ijerph192316136",
+      "doi_url": "https://doi.org/10.3390/ijerph192316136",
+      "url": "http://dx.doi.org/10.3390/ijerph192316136",
+      "external_ids": {
+        "eid": "2-s2.0-85143700108",
+        "wosuid": "WOS:000896166200001",
+        "doi": "10.3390/ijerph192316136"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Bin Wang",
+        "Chunguang Hu",
+        "Jianxiong Li"
+      ],
+      "abstract": "<jats:p>The relationship between the tourism economy and the ecosystem service value (ESV) is crucial for sustainable regional development. This study takes southern Jiangsu as a research object. Firstly, the development level of the tourism economy and ecosystem service value in southern Jiangsu from 2000 to 2020 are evaluated with the entropy method, ecosystem service value is estimated and the dynamic degree of land use is computed. Secondly, the coupling coordination degree model is used to explore the coupling coordination degree between the two systems. Finally, the interaction mechanism between the tourism economy and ecosystem service function is elaborated. The result shows that: (1) There are disparities in the levels of a comprehensive tourism economy in different cities, and the overall development level of the tourism economy in southern Jiangsu shows a cyclical fluctuation pattern. (2) Spatial variation of ecosystem service value exists in different cities in southern Jiangsu, with an overall trend of increasing in the beginning followed by a decline. (3) The coupling coordination degree between the tourism economic system and ecosystem service functions in southern Jiangsu demonstrates an inverted U-shaped development pattern from 2000 to 2020, evolving from mild disorder to intermediate coordination and then back to mild disorder, and the development of two subsystems is unstable and imbalanced. Within the region, Nanjing, Suzhou and Zhenjiang have experienced a rise in coupling coordination degree followed by a decline. This study also reveals the coupling mechanism between ecological service functions and the tourism economic system, and provides suggestions for ecological preservation and sustainable development of tourism industry in southern Jiangsu. This research can be a reference for tourism and regional development in southern Jiangsu and the whole Yangtze Delta region.</jats:p>"
+    },
+    {
+      "put_code": 133773841,
+      "title": "Quantifying the Temporal and Spatial Patterns of Ecosystem Services and Exploring the Spatial Differentiation of Driving Factors: a Case Study of Sichuan Basin, China",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022-07-14",
+      "journal": "Frontiers in Environmental Science",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3389/fenvs.2022.927818",
+      "doi_url": "https://doi.org/10.3389/fenvs.2022.927818",
+      "url": "http://dx.doi.org/10.3389/fenvs.2022.927818",
+      "external_ids": {
+        "wosuid": "WOS:000885899200001",
+        "doi": "10.3389/fenvs.2022.927818"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "Ziyi Wang",
+        "Jiaming Li",
+        "Huan Liu",
+        "Dongqi Sun"
+      ],
+      "abstract": "<jats:p>Exploring the factors that drive the change of ecosystem services (ES) is very important for maintaining ES function and zoning ecological management, especially in the Sichuan Basin area with high spatial heterogeneity such as natural and socio-economic characteristics. Taking the Sichuan Basin in China as an example, the PCA-MGWR model was constructed to explore the temporal and spatial patterns of ES in the Sichuan Basin from 2000 to 2015. The potential driving factors including anthropogenic factors, geomorphological factors, climate factors, and vegetation factors would be analyzed by principal component analysis (PCA). To illustrate the impact of spatial dependence in the data, the multi-scale geographically weighted regression (MGWR) technology was selected to explore the spatial differentiation of the impact of these four dimensions on ES to reflect the local differences of ecosystem service driving mechanisms in more detail. The results showed that 1) from the perspective of time series evolution, carbon storage (CS) and soil conservation (SC) in ES in the Sichuan Basin showed an upward trend, while water yield (WY) showed a downward trend; from the perspective of spatial patterns, except the main urban areas of Chengdu and Chongqing, the CS service level of other regions was high; The spatial distribution characteristics of SC services were “low in the middle and high in the periphery”; the high value area of WY service was located in Northeast Sichuan. 2) Among natural factors, elevation (DEM), slope (SLO), NDVI, annual average temperature (TEM), and annual average precipitation (PRE) had a higher contribution rate to ES, while among socio-economic factors, GDP density (GDP), night light (LIG), and population density (POP) had a higher contribution rate to ES, while other factors had a lower contribution rate. 3) Combined with the PCA-MGWR model, we analyzed the comprehensive response and spatial differentiation of driving factors to ES in the Sichuan Basin and explained in detail the influence of anthropogenic factors, geomorphological factors, climatic factors, and vegetation factors and their spatial heterogeneity in ES. It is expected that the spatial differences in the impact degree of different indicators can be considered when formulating the countermeasures of ES in the Sichuan Basin, to provide theoretical support for the implementation of regional ecological management and control.</jats:p>"
+    },
+    {
+      "put_code": 133773845,
+      "title": "Reverse Thinking: The Logical System Research Method of Urban Thermal Safety Pattern Construction, Evaluation, and Optimization",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022-11-29",
+      "journal": "Remote Sensing",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/rs14236036",
+      "doi_url": "https://doi.org/10.3390/rs14236036",
+      "url": "http://dx.doi.org/10.3390/rs14236036",
+      "external_ids": {
+        "doi": "10.3390/rs14236036",
+        "eid": "2-s2.0-85143728405",
+        "wosuid": "WOS:000896094300001"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Chunguang Hu",
+        "He Li"
+      ],
+      "abstract": "<jats:p>The acceleration of urbanization has significantly impacted the changing regional thermal environment, leading to a series of ecological and environment-related problems. A scientific evaluation of the urban thermal security pattern (TSPurban) strongly benefits the planning and layout of sustainable development and the construction of comfortable human settlements. To analyze the characteristics of the TSPurban under cross-regional differences and provide targeted solutions to mitigate the urban heat island effect in later stages, the logical system research framework of the TSPurban based on the “construction–evaluation–optimization” model was explored using reverse thinking. This study selected the Wuhan metropolitan area in China as the research object. First, a morphological spatial pattern analysis (MSPA) model was used to extract the top 30 core heat island patches, and Conefor 2.6 software was used for connection analysis to evaluate their importance. Second, based on the characteristics of various land cover types, the friction (cost) map of surface urban heat island (SUHI) diffusion was simulated. The spatial attributes of the heat island resistance surface were examined using a standard deviation ellipse and hot spot analysis. Finally, this paper used circuit theory to find 56 low-cost heat island links (corridors) and circuit scape software to find widely distributed vital nodes. The optimization of the TSPurban network was then investigated using a reverse thinking process. Heat island patches, corridors, and vital nodes are among the crucial components of the TSPurban. By obstructing corridor links and disturbing important nodes, it is possible to appropriately and proficiently reduce the TSPurban network’s connection efficiency and stability, which will have a positive influence on regional climate mitigation and the heat island effect.</jats:p>"
+    },
+    {
+      "put_code": 133773848,
+      "title": "Seasonal Contrast and Interactive Effects of Potential Drivers on Land Surface Temperature in the Sichuan Basin, China",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022-03-06",
+      "journal": "Remote Sensing",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/rs14051292",
+      "doi_url": "https://doi.org/10.3390/rs14051292",
+      "url": "http://dx.doi.org/10.3390/rs14051292",
+      "external_ids": {
+        "doi": "10.3390/rs14051292",
+        "wosuid": "WOS:000769184300001",
+        "eid": "2-s2.0-85126294326"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Ziyi Wang",
+        "Dongqi Sun",
+        "Chunguang Hu",
+        "Yu Wang",
+        "Jingxiang Zhang"
+      ],
+      "abstract": "<jats:p>Little is known about the seasonal heterogeneity of land surface temperature (LST) and the interaction relationship between potential drivers in Sichuan Basin, China. In this study, based on exploring the spatial heterogeneity of LST in Sichuan Basin, China, multi-source remote sensing data as potential drivers were selected and a Geo-detector model was applied to analyze the main drivers and the interactive relationship between drivers on LST during different seasons. The results showed that the high-temperature areas in Sichuan Basin in different seasons all appeared in the cities near the high mountains on the edge of the basin. This phenomenon was summarized as “sinking heat island” by us. From the driving factors, the biophysical parameters (DEM, SLOPE and NDVI) had the greatest impact on LST in each season, reaching the peak in the transition season. The climate parameters (WIND, HUM, PRE and TEM) and socioeconomic parameters (LIGHT, POP and ROAD) also had a certain impact on LST. The influence of a single landscape parameter (SHDI, PD, LPI, ED and LSI) on LST is limited. From the effect of factor interaction on LST, the interaction of biophysical parameters, climatic parameters and landscape parameters from summer to the transitional season was strengthened obviously, and it showed a downward trend in the winter; in contrast, the socioeconomic parameters showed the opposite characteristics, indicating that the interaction between human activities and other factors affected LST more obviously in the winter. The results of this study are not only valuable for understanding the spatial features of LST but also important for formulating mitigation strategies and sustainable development of urban heat island in Sichuan Basin.</jats:p>"
+    },
+    {
+      "put_code": 133773985,
+      "title": "Spatial Patterns Exploration and Impacts Modelling of Carbon Emissions: Evidence from Three Stages of Metropolitan Areas in the YREB, China",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022-10-18",
+      "journal": "Land",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.3390/land11101835",
+      "doi_url": "https://doi.org/10.3390/land11101835",
+      "url": "http://dx.doi.org/10.3390/land11101835",
+      "external_ids": {
+        "wosuid": "WOS:000875321100001",
+        "eid": "2-s2.0-85140918331",
+        "doi": "10.3390/land11101835"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Yichen Ding",
+        "Yaping Huang",
+        "Lairong Xie",
+        "Shiwei Lu",
+        "Leizhou Zhu",
+        "Chunguang Hu",
+        "Yidan Chen"
+      ],
+      "abstract": "<jats:p>Metropolitan areas in China are not only the core spatial carriers of urbanization development but also the main generators of land use carbon emission (LUCE). However, existing research lacks comparative studies on the differential patterns and impact factors of LUCE in different stages of metropolitan areas. Therefore, this paper deeply analyzes the spatial characteristics of LUCE and the coupling coordination degree (CCD) of the economy contributive coefficient (ECC) and ecological support coefficient (ESC) in three different stages of metropolitan areas in the Yangtze River Economic Belt (YREB), China. Moreover, quantitative modelling of the impact factors of LUCE in these different stages of metropolitan areas is furtherly revealed. Results show that: (1) The more mature stage of the metropolitan area, the higher the amount of LUCE, and the more districts or counties with high carbon emissions levels are clustered. (2) At the metropolitan area scale, the more mature the metropolitan area is and the lower the CCD between ECC and ESC is, while at the finer scale, more developed counties have lower CCD. (3) Resident population, per capita GDP, and urbanization rate have good explanatory effects on carbon emissions in these three metropolitan areas; however, except for the urbanization rate, which has a negative effect on LUCE in Nanchang metropolitan area (NMA), the other two factors have positive effects on LUCE in these three metropolitan areas. This study has important implications for different stages of metropolitan areas to formulate targeted LUCE reduction policies.</jats:p>"
+    },
+    {
+      "put_code": 180967285,
+      "title": "基于“三调”成果的山地县域建设用地高效发展优化策略——以湖北省竹山县为例",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022",
+      "journal": "规划师",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {
+        "issn": "1006-0022"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "胡纯广",
+        "王智勇",
+        "段名材",
+        "艾玉红",
+        "林颖"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967293,
+      "title": "我国市级人口的时空演化特征及空间引导策略——基于317个地级市“五普”、“六普”和“七普”人口数据",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022",
+      "journal": "规划师",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {
+        "issn": "1006-0022"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "王智勇",
+        "胡纯广",
+        "严慧慧",
+        "邱岚"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967291,
+      "title": "湖北省国土空间碳排放格局特征与优化对策",
+      "subtitle": "",
+      "year": 2022,
+      "date": "2022",
+      "journal": "规划师",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {
+        "issn": "1006-0022"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "王智勇",
+        "胡纯广",
+        "张毅",
+        "刘合林"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 133773834,
+      "title": "Examining Spatio-Temporal Characteristics of Urban Heat Islands and Factors Driving Them in Hangzhou, China",
+      "subtitle": "",
+      "year": 2021,
+      "date": "2021",
+      "journal": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.1109/jstars.2021.3105586",
+      "doi_url": "https://doi.org/10.1109/jstars.2021.3105586",
+      "url": "http://dx.doi.org/10.1109/jstars.2021.3105586",
+      "external_ids": {
+        "doi": "10.1109/jstars.2021.3105586",
+        "eid": "2-s2.0-85113214120",
+        "wosuid": "WOS:000692210900017"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "Dongqi Sun",
+        "Chunguang Hu",
+        "Yu Wang",
+        "Ziyi Wang",
+        "Jingxiang Zhang"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967287,
+      "title": "疫情防控背景下社区医养结合养老服务规划再思考",
+      "subtitle": "",
+      "year": 2020,
+      "date": "2020",
+      "journal": "城市问题",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.13239/j.bjsshkxy.cswt.200703",
+      "doi_url": "https://doi.org/10.13239/j.bjsshkxy.cswt.200703",
+      "url": "https://doi.org/10.13239/j.bjsshkxy.cswt.200703",
+      "external_ids": {
+        "doi": "10.13239/j.bjsshkxy.cswt.200703"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "杨国霞",
+        "尤海梅",
+        "胡纯广"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967240,
+      "title": "基于引力模型的淮海经济区空间格局研究",
+      "subtitle": "",
+      "year": 2019,
+      "date": "2019",
+      "journal": "资源与产业",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "10.13776/j.cnki.resourcesindustries.20191206.005",
+      "doi_url": "https://doi.org/10.13776/j.cnki.resourcesindustries.20191206.005",
+      "url": "https://doi.org/10.13776/j.cnki.resourcesindustries.20191206.005",
+      "external_ids": {
+        "doi": "10.13776/j.cnki.resourcesindustries.20191206.005"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "胡纯广",
+        "王仲智",
+        "杨光",
+        "邢力",
+        "杨韬",
+        "何一苇",
+        "李贺"
+      ],
+      "abstract": ""
+    },
+    {
+      "put_code": 180967289,
+      "title": "淮海经济区空气质量时空分布特征",
+      "subtitle": "",
+      "year": 2019,
+      "date": "2019",
+      "journal": "江苏师范大学学报(自然科学版)",
+      "type": "journal-article",
+      "type_label": "期刊论文",
+      "doi": "",
+      "doi_url": "",
+      "url": "",
+      "external_ids": {
+        "issn": "2095-4298"
+      },
+      "short_description": "",
+      "kind": "article",
+      "authors": [
+        "胡纯广",
+        "史春云",
+        "于淑芹"
+      ],
+      "abstract": ""
+    }
+  ]
+}

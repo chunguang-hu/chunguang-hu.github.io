@@ -1,0 +1,102 @@
+{{ define "main" }}
+{{- $p := site.Data.profile -}}
+{{- $t := site.Data.timeline -}}
+{{- $rj := site.Data.review_journals -}}
+<div class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Curriculum Vitae</p>
+    <h1>{{ .Title }}</h1>
+    <p class="desc">在线学术简历，可直接打印或另存为 PDF。</p>
+  </div>
+
+  <div class="btn-row no-print cv-actions">
+    <a class="btn btn-primary" href="{{ $p.cv_file | replaceRE "^/" "" | relURL }}" download>下载 PDF 简历</a>
+    <button class="btn" type="button" onclick="window.print()">打印 / 另存为 PDF</button>
+    <a class="btn" href="{{ "downloads/publications.bib" | relURL }}" download>下载成果 BibTeX</a>
+  </div>
+  <div class="notice no-print">在线简历可随时打印或另存为 PDF；如需排版完整的正式版本，请使用上方「下载 PDF 简历」。</div>
+
+  <div class="cv-doc">
+    <header class="cv-head">
+      <h1>{{ $p.full_name }}</h1>
+      <p class="cv-role">{{ $p.tagline }}</p>
+      <p class="cv-contact">
+        {{ $p.affiliation_zh }} {{ $p.affiliation }} · {{ $p.location }}<br>
+        <a href="mailto:{{ $p.email }}">{{ $p.email }}</a> ·
+        <a href="{{ $p.orcid_url }}">ORCID {{ $p.orcid }}</a>
+      </p>
+    </header>
+
+    <section class="cv-block">
+      <h2>研究方向</h2>
+      <p>{{ $p.headline }}</p>
+    </section>
+
+    <section class="cv-block">
+      <h2>教育背景</h2>
+      <ul class="cv-list">
+        {{- range $t.education }}
+        <li>
+          <span class="cv-when">{{ .start | default "—" }}{{ with .end }}–{{ . }}{{ end }}</span>
+          <span class="cv-what"><strong>{{ .organization }}</strong>{{ with .department }}，{{ . }}{{ end }}{{ with .role }} — {{ . }}{{ end }}</span>
+        </li>
+        {{- end }}
+      </ul>
+    </section>
+
+    <section class="cv-block">
+      <h2>任职</h2>
+      <ul class="cv-list">
+        {{- range $t.employment }}
+        <li>
+          <span class="cv-when">{{ .start | default "—" }}{{ with .end }}–{{ . }}{{ end }}</span>
+          <span class="cv-what"><strong>{{ .organization }}</strong>{{ with .role }} — {{ . }}{{ end }}{{ with .city }}（{{ . }}）{{ end }}</span>
+        </li>
+        {{- end }}
+      </ul>
+    </section>
+
+    {{- with $t.fundings }}
+    <section class="cv-block">
+      <h2>科研资助</h2>
+      <ul class="cv-list">
+        {{- range . }}
+        <li>
+          <span class="cv-when">{{ .start }}{{ with .end }}–{{ . }}{{ end }}</span>
+          <span class="cv-what">{{ .title }} — {{ .organization }}</span>
+        </li>
+        {{- end }}
+      </ul>
+    </section>
+    {{- end }}
+
+    <section class="cv-block">
+      <h2>学术服务</h2>
+      <ul class="cv-list">
+        {{- range $t.services }}
+        <li>
+          <span class="cv-when">{{ .start }}{{ with .end }}–{{ . }}{{ end }}</span>
+          <span class="cv-what">{{ .role }}，{{ .organization }}</span>
+        </li>
+        {{- end }}
+        {{- if and $rj $rj.available }}
+        <li>
+          <span class="cv-when">{{ $rj.year_from }}–{{ $rj.year_to }}</span>
+          <span class="cv-what">同行评审：{{ $rj.journal_count }} 个期刊，共 {{ $rj.total_reviews }} 次审阅（ORCID 公开记录）</span>
+        </li>
+        {{- end }}
+      </ul>
+    </section>
+
+    <section class="cv-block">
+      <h2>代表性成果</h2>
+      <ol class="cv-pubs">
+        {{- range first 10 (where site.Data.publications.items "kind" "article") }}
+        <li>{{ delimit (.authors | default (slice)) ", " }}. <em>{{ .title }}</em>. {{ with .journal }}{{ . }}, {{ end }}{{ .year }}.{{ with .doi }} doi:{{ . }}{{ end }}</li>
+        {{- end }}
+      </ol>
+      <p class="source-note">共 {{ site.Data.publications.articles }} 篇正式成果，完整列表见<a href="{{ "publications/" | relURL }}">论文与引用</a>。</p>
+    </section>
+  </div>
+</div>
+{{ end }}

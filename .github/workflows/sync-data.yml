@@ -1,0 +1,79 @@
+# 定时同步学术数据 → 提交 → 触发 GitHub Pages 自动重新部署
+#
+# 免费链路说明：
+#   GitHub Actions（公共仓库免费）
+#   → 运行 Python 脚本抓取 ORCID + OpenAlex 公开 API
+#   → 仅当 data/ 有变化时提交
+#   → push 触发 .github/workflows/deploy-gh-pages.yml 重新构建并发布
+# 每周一次，远低于免费额度。
+#
+# 注意：commit message 不能带 [skip ci]，否则 GitHub Pages 部署工作流不会被触发。
+#
+# 可选：在仓库 Settings → Secrets 中添加
+#   POLITE_EMAIL       联系邮箱（进入 OpenAlex polite pool，提升稳定性）
+#   OPENALEX_API_KEY   OpenAlex 免费 API Key（提升每日额度，可选）
+name: 同步学术数据
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # 每周一 UTC 03:17
+  workflow_dispatch:
+    inputs:
+      skip_details:
+        description: "跳过逐篇作者详情（更快）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-academic-data
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      POLITE_EMAIL: ${{ secrets.POLITE_EMAIL }}
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 「无第三方依赖」说明
+        run: echo "同步脚本仅使用 Python 标准库，无需 pip install"
+
+      - name: 同步 ORCID / OpenAlex / Scholar 导入并合并
+        run: |
+          if [ "${{ inputs.skip_details }}" = "true" ]; then
+            python -m scripts.sync_all --skip-details
+          else
+            python -m scripts.sync_all
+          fi
+
+      - name: 提交数据变更
+        id: commit
+        run: |
+          git config user.name  "academic-data-bot"
+          git config user.email "academic-data-bot@users.noreply.github.com"
+          git add data/ static/downloads/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "学术数据无变化，跳过提交（不会触发多余构建）"
+          else
+            git commit -m "chore(data): 自动同步 ORCID / OpenAlex 学术数据"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 推送（触发 GitHub Pages 自动部署）
+        if: steps.commit.outputs.changed == 'true'
+        run: git push

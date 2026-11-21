@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-11-21T09:34:06Z",
+  "openalex": {
+    "available": true,
+    "works_count": 50,
+    "total_citations": 1123,
+    "h_index": 20,
+    "i10_index": 26,
+    "max_citations": 123,
+    "citations_by_year": [
+      {
+        "year": 2003,
+        "works": 1,
+        "citations": 0
+      },
+      {
+        "year": 2008,
+        "works": 1,
+        "citations": 0
+      },
+      {
+        "year": 2009,
+        "works": 2,
+        "citations": 0
+      },
+      {
+        "year": 2017,
+        "works": 1,
+        "citations": 0
+      },
+      {
+        "year": 2018,
+        "works": 0,
+        "citations": 3
+      },
+      {
+        "year": 2019,
+        "works": 0,
+        "citations": 4
+      },
+      {
+        "year": 2020,
+        "works": 1,
+        "citations": 8
+      },
+      {
+        "year": 2021,
+        "works": 1,
+        "citations": 15
+      },
+      {
+        "year": 2022,
+        "works": 7,
+        "citations": 35
+      },
+      {
+        "year": 2023,
+        "works": 2,
+        "citations": 69
+      },
+      {
+        "year": 2024,
+        "works": 6,
+        "citations": 118
+      },
+      {
+        "year": 2025,
+        "works": 11,
+        "citations": 424
+      },
+      {
+        "year": 2026,
+        "works": 17,
+        "citations": 445
+      }
+    ],
+    "author_count": 3,
+    "deduplication": "按 DOI 去重，多个重复作者档案中同一论文只计一次",
+    "source": "OpenAlex API（按 ORCID 自动同步，重复档案已按 DOI 去重）"
+  },
+  "scholar": {
+    "available": false,
+    "citations": null,
+    "h_index": null,
+    "i10_index": null,
+    "last_updated": null,
+    "profile_url": "https://scholar.google.com/citations?user=XJVXW4YAAAAJ&hl=zh-CN",
+    "source": "Google Scholar 个人主页人工抄录（无公开 API，禁止自动抓取）"
+  },
+  "orcid": {
+    "works_count": 61,
+    "source": "ORCID 公共 API"
+  }
+}

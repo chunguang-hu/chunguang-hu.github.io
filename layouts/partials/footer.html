@@ -1,0 +1,18 @@
+{{- $p := site.Data.profile -}}
+{{- $m := site.Data.metrics -}}
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <div class="footer-name">{{ $p.full_name }}</div>
+      <div class="footer-desc">{{ $p.tagline }}</div>
+    </div>
+    <div class="footer-meta">
+      <div>© {{ now.Year }} {{ $p.full_name }}</div>
+      <div class="updated">学术数据最后同步：{{ with $m.generated_at }}{{ . }}{{ else }}—{{ end }}（UTC）</div>
+      <div class="footer-links">
+        {{- range $p.links }}<a href="{{ .url }}" rel="me noopener" target="_blank">{{ .label }}</a>{{ end -}}
+        <a href="{{ "sitemap.xml" | relURL }}">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>

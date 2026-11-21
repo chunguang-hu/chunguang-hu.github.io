@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{- $s := site.Data.site -}}
+{{- $icons := slice "heat" "morphology" "bluegreen" "landuse" "remote" "air" -}}
+<div class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Research</p>
+    <h1>{{ .Title }}</h1>
+    <p class="desc">研究主题依据 ORCID 收录论文的标题与关键词归纳，六个方向相互支撑，构成从机制到应用的研究脉络。</p>
+  </div>
+  <div class="prose">{{ .Content }}</div>
+
+  <figure class="feature-figure">
+    <img src="{{ "images/blue-green-city.webp" | relURL }}" alt="蓝绿基础设施与城市形态示意：树冠、绿色屋顶、水体与不同高度的建筑体块叠加在遥感网格上。" width="1536" height="928" loading="lazy" decoding="async">
+    <figcaption>蓝绿基础设施、城市形态与热环境的耦合关系示意（本站配图，用于说明研究主题，非数据结果）。</figcaption>
+  </figure>
+
+  <div class="grid-3 research-grid">
+    {{- range $i, $r := $s.research }}
+    {{- $icon := index $icons (mod $i (len $icons)) }}
+    <article class="card research-card">
+      <span class="research-icon">{{ partial "icon.html" $icon }}</span>
+      <h3>{{ $r.title }}<span class="en">{{ $r.title_en }}</span></h3>
+      <p>{{ $r.description }}</p>
+      <div class="tag-row">{{ range $r.keywords }}<span class="tag">{{ . }}</span>{{ end }}</div>
+    </article>
+    {{- end }}
+  </div>
+
+  <h2>相关成果</h2>
+  <p class="section-lede">可按标题、作者、期刊或关键词检索：</p>
+  {{ partial "publications.html" (dict "toolbar" true) }}
+</div>
+{{ end }}

@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{- $p := site.Data.profile -}}
+<div class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Contact</p>
+    <h1>{{ .Title }}</h1>
+    <p class="desc">欢迎就学术合作、论文合作、评审与研究生申请等事宜联系。</p>
+  </div>
+  <div class="prose">{{ .Content }}</div>
+
+  <div class="contact-grid">
+    <div class="card contact-card">
+      <span class="contact-icon">{{ partial "icon.html" "remote" }}</span>
+      <h3>电子邮件</h3>
+      <p class="contact-main"><a href="mailto:{{ $p.email }}">{{ $p.email }}</a></p>
+      {{- with $p.email_alt }}<p class="muted"><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end -}}
+    </div>
+    <div class="card contact-card">
+      <span class="contact-icon">{{ partial "icon.html" "morphology" }}</span>
+      <h3>单位与所在地</h3>
+      <p class="contact-main">{{ $p.affiliation_zh }} {{ $p.affiliation }}</p>
+      <p class="muted">{{ $p.location }}</p>
+    </div>
+  </div>
+
+  <h2>学术档案</h2>
+  <ul class="link-list">
+    {{- range $p.links }}
+    <li>
+      <a href="{{ .url }}" target="_blank" rel="noopener me">
+        <span class="link-label">{{ .label }}</span>
+        <span class="link-url">{{ .url }}</span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+
+  <div class="notice no-print">
+    <strong>隐私说明：</strong>以上邮箱与链接来自本人公开的 ORCID 记录。本站为纯静态站点，不收集任何访客数据，也不使用跟踪脚本。
+  </div>
+</div>
+{{ end }}

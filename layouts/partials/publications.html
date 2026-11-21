@@ -1,0 +1,52 @@
+{{- /* 学术条目列表：年份分组已在 build_data.py 预计算，模板只负责渲染 */ -}}
+{{- $pubs := site.Data.publications -}}
+{{- $limit := .limit | default 0 -}}
+{{- $toolbar := .toolbar | default false -}}
+{{- $featuredOnly := .featuredOnly | default false -}}
+{{- $items := $pubs.items -}}
+
+{{- if $featuredOnly -}}
+  {{- $items = where $items "featured" true -}}
+{{- end -}}
+
+{{- if $toolbar -}}
+<div class="pub-toolbar no-print">
+  <input id="pub-search" type="search" placeholder="搜索标题、作者、期刊或关键词…" aria-label="搜索成果">
+  <select id="pub-year" aria-label="按年份筛选">
+    <option value="all">全部年份</option>
+    {{- range $pubs.years }}<option value="{{ . }}">{{ . }}</option>{{ end -}}
+  </select>
+  <select id="pub-type" aria-label="按类型筛选">
+    <option value="all">全部类型</option>
+    {{- range $pubs.types }}<option value="{{ . }}">{{ . }}</option>{{ end -}}
+  </select>
+  <button id="pub-clear" class="btn btn-sm" type="button">重置</button>
+  <span class="count" id="pub-count"></span>
+</div>
+{{- end -}}
+
+{{- if $items -}}
+{{- $shown := 0 -}}
+<ul class="pub-list" id="pub-list">
+  {{- range $g := $pubs.groups -}}
+    {{- if or (eq $limit 0) (lt $shown $limit) -}}
+    {{- $groupItems := $g.items -}}
+    {{- if $featuredOnly -}}{{ $groupItems = where $groupItems "featured" true }}{{- end -}}
+    {{- if and $limit (gt $limit 0) -}}
+      {{- $remaining := sub $limit $shown -}}
+      {{- if gt (len $groupItems) $remaining -}}{{ $groupItems = first $remaining $groupItems }}{{- end -}}
+    {{- end -}}
+    {{- if $groupItems -}}
+  <li class="year-heading" data-year="{{ $g.year }}" style="list-style:none; margin-left:0;">{{ $g.label }}</li>
+      {{- range $groupItems -}}
+        {{- partial "publication-item.html" . -}}
+        {{- $shown = add $shown 1 -}}
+      {{- end -}}
+    {{- end -}}
+    {{- end -}}
+  {{- end -}}
+</ul>
+<p class="pub-empty" id="pub-empty" style="display:none">没有匹配的成果，试试其他关键词。</p>
+{{- else -}}
+<p class="pub-empty">暂无可展示的成果。</p>
+{{- end -}}

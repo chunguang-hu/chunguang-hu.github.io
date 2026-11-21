@@ -1,0 +1,70 @@
+{
+  "employment": [
+    {
+      "organization": "Peking University",
+      "department": null,
+      "role": null,
+      "start": "",
+      "end": "",
+      "city": "Beijing",
+      "country": "CN"
+    }
+  ],
+  "education": [
+    {
+      "organization": "Peking University",
+      "department": "School of Urban Planning and Design",
+      "role": "Doctor",
+      "start": "",
+      "end": "",
+      "city": "Shenzhen",
+      "country": "CN"
+    },
+    {
+      "organization": "Huazhong University of Science and Technology",
+      "department": "School of Architecture and Urban Planning",
+      "role": "Master",
+      "start": "",
+      "end": "",
+      "city": "Wuhan",
+      "country": "CN"
+    }
+  ],
+  "fundings": [
+    {
+      "title": "Identification and Targeted Mitigation of Heat Exposure Risk in Watershed Settlements Based on Network Models",
+      "type": "contract",
+      "organization": "China University of Mining and Technology",
+      "start": "2025-11",
+      "end": "2026-12"
+    }
+  ],
+  "services": [
+    {
+      "role": "Academic Editor",
+      "organization": "PLOS ONE",
+      "start": "2024-04",
+      "end": ""
+    },
+    {
+      "role": "Guest Editor",
+      "organization": "Asian Journal of Water, Environment and Pollution",
+      "start": "2026-05-20",
+      "end": "2027-03-31"
+    },
+    {
+      "role": "Guest Editor",
+      "organization": "Discover Cities",
+      "start": "2026-04-30",
+      "end": "2027-01-31"
+    },
+    {
+      "role": "Guest Editor",
+      "organization": "Frontiers in Environmental Science",
+      "start": "2025-11-25",
+      "end": "2026-06-30"
+    }
+  ],
+  "peer_review_count": 316,
+  "review_journal_count": 63
+}

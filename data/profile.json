@@ -1,0 +1,129 @@
+{
+  "orcid": "0009-0003-6832-3957",
+  "orcid_url": "https://orcid.org/0009-0003-6832-3957",
+  "given_name": "Chunguang",
+  "family_name": "Hu",
+  "full_name": "Chunguang Hu",
+  "biography": null,
+  "emails": [
+    "chunguangh@foxmail.com",
+    "huchunguang@hust.edu.cn",
+    "huchunguang@stu.pku.edu.cn"
+  ],
+  "researcher_urls": [
+    {
+      "label": "Researchgate",
+      "url": "https://www.researchgate.net/profile/Chunguang-Hu-2"
+    },
+    {
+      "label": "Googlescholar",
+      "url": "https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=XJVXW4YAAAAJ"
+    }
+  ],
+  "keywords": [],
+  "employment": [
+    {
+      "organization": "Peking University",
+      "department": null,
+      "role": null,
+      "start": "",
+      "end": "",
+      "city": "Beijing",
+      "country": "CN"
+    }
+  ],
+  "education": [
+    {
+      "organization": "Peking University",
+      "department": "School of Urban Planning and Design",
+      "role": "Doctor",
+      "start": "",
+      "end": "",
+      "city": "Shenzhen",
+      "country": "CN"
+    },
+    {
+      "organization": "Huazhong University of Science and Technology",
+      "department": "School of Architecture and Urban Planning",
+      "role": "Master",
+      "start": "",
+      "end": "",
+      "city": "Wuhan",
+      "country": "CN"
+    }
+  ],
+  "fundings": [
+    {
+      "title": "Identification and Targeted Mitigation of Heat Exposure Risk in Watershed Settlements Based on Network Models",
+      "type": "contract",
+      "organization": "China University of Mining and Technology",
+      "start": "2025-11",
+      "end": "2026-12"
+    }
+  ],
+  "services": [
+    {
+      "role": "Academic Editor",
+      "organization": "PLOS ONE",
+      "start": "2024-04",
+      "end": ""
+    },
+    {
+      "role": "Guest Editor",
+      "organization": "Asian Journal of Water, Environment and Pollution",
+      "start": "2026-05-20",
+      "end": "2027-03-31"
+    },
+    {
+      "role": "Guest Editor",
+      "organization": "Discover Cities",
+      "start": "2026-04-30",
+      "end": "2027-01-31"
+    },
+    {
+      "role": "Guest Editor",
+      "organization": "Frontiers in Environmental Science",
+      "start": "2025-11-25",
+      "end": "2026-06-30"
+    }
+  ],
+  "peer_review_count": 0,
+  "works_count": 61,
+  "last_modified": 1794625890835,
+  "source": "https://pub.orcid.org/v3.0/0009-0003-6832-3957/record",
+  "fetched_at": "2026-11-21T08:33:26Z",
+  "name": "Chunguang Hu",
+  "tagline": "城市热环境与可持续城市研究",
+  "headline": "城市热环境 · 城市形态 · 蓝绿基础设施 · 生态韧性",
+  "affiliation": "Peking University",
+  "affiliation_zh": "北京大学",
+  "location": "Beijing, China",
+  "email": "chunguangh@foxmail.com",
+  "email_alt": "huchunguang@stu.pku.edu.cn",
+  "avatar": "/images/avatar.svg",
+  "cv_file": "/downloads/cv.pdf",
+  "cv_note": "把正式 CV 另存为 static/downloads/cv-official.pdf，并把此处 cv_file 指向它；cv.pdf 由脚本自动生成",
+  "links": [
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0003-6832-3957",
+      "icon": "orcid"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=XJVXW4YAAAAJ&hl=zh-CN",
+      "icon": "scholar"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Chunguang-Hu-2",
+      "icon": "rg"
+    },
+    {
+      "label": "OpenAlex",
+      "url": "https://openalex.org/authors/A5103083652",
+      "icon": "openalex"
+    }
+  ],
+  "teaching": []
+}

@@ -1,0 +1,46 @@
+{{- $m := site.Data.metrics -}}
+{{- $oa := $m.openalex -}}
+{{- $sc := $m.scholar -}}
+<div class="metrics-grid">
+  {{- if $oa.available -}}
+  <div class="metric">
+    <div class="num">{{ $oa.total_citations | default 0 }}</div>
+    <div class="label">总被引次数</div>
+    <div class="sub">OpenAlex · 自动同步</div>
+  </div>
+  <div class="metric">
+    <div class="num">{{ $oa.h_index | default 0 }}</div>
+    <div class="label">h-index</div>
+    <div class="sub">OpenAlex · 去重计算</div>
+  </div>
+  <div class="metric">
+    <div class="num">{{ $oa.i10_index | default 0 }}</div>
+    <div class="label">i10-index</div>
+    <div class="sub">OpenAlex · 去重计算</div>
+  </div>
+  <div class="metric">
+    <div class="num">{{ site.Data.publications.articles | default 0 }}</div>
+    <div class="label">论文与成果</div>
+    <div class="sub">ORCID · 自动同步</div>
+  </div>
+  {{- else -}}
+  <div class="metric"><div class="num">—</div><div class="label">引用数据待同步</div><div class="sub">运行同步脚本后显示</div></div>
+  {{- end -}}
+</div>
+
+{{- if $sc.available -}}
+<div class="source-note">
+  Google Scholar（人工维护{{ with $sc.last_updated }}，更新于 {{ . }}{{ end }}）：
+  总被引 <strong>{{ $sc.citations | default "—" }}</strong> ·
+  h-index <strong>{{ $sc.h_index | default "—" }}</strong> ·
+  i10-index <strong>{{ $sc.i10_index | default "—" }}</strong>
+  <a href="{{ $sc.profile_url }}" target="_blank" rel="noopener">查看主页 ↗</a>
+</div>
+{{- else -}}
+<div class="notice no-print">
+  <strong>数据口径：</strong>
+  引用与 h-index 由 <strong>OpenAlex 开放 API</strong> 按 ORCID 自动计算（重复作者档案已按 DOI 去重），
+  构成一个透明、可复核的统计口径。OpenAlex 与 Google Scholar 的收录范围不同，数值存在差异属正常现象；
+  本站不做 Scholar 抓取，因此不并列展示其数值。
+</div>
+{{- end -}}

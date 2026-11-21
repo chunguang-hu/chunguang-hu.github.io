@@ -1,0 +1,7 @@
+{
+  "hidden": [],
+  "featured": [],
+  "items": {},
+  "extra_items": [],
+  "notes": "按 DOI（小写）或标题作为 key。可用字段: title_zh, authors, featured, hidden, pdf_url, note, tags, year, journal"
+}

@@ -1,0 +1,123 @@
+{{ define "main" }}
+{{- $p := site.Data.profile -}}
+{{- $s := site.Data.site -}}
+{{- $t := site.Data.timeline -}}
+{{- $rj := site.Data.review_journals -}}
+{{- $icons := slice "heat" "morphology" "bluegreen" "landuse" "remote" "air" -}}
+
+<section class="hero">
+  <div class="hero-media" aria-hidden="true">
+    <img src="{{ "images/hero-urban-heat.webp" | relURL }}" alt="" width="1536" height="928" fetchpriority="high" decoding="async">
+  </div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Academic Homepage</p>
+      <h1>{{ $p.full_name }}</h1>
+      <p class="hero-role">{{ $p.tagline }}</p>
+      <p class="lede">研究聚焦城市热环境与热舒适、2D/3D 城市形态的气候响应、蓝绿基础设施降温效应，以及土地利用变化与生态韧性；方法上结合多源遥感与可解释机器学习开展定量分析。</p>
+      <ul class="hero-facts">
+        <li>{{ partial "icon.html" "remote" }}<span>{{ $p.affiliation_zh }} {{ $p.affiliation }}</span></li>
+        <li>{{ partial "icon.html" "heat" }}<span>{{ $p.location }}</span></li>
+        <li>{{ partial "icon.html" "morphology" }}<span>{{ site.Data.publications.articles }} 篇论文 · {{ $t.review_journal_count | default 0 }} 个期刊审稿</span></li>
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="{{ "publications/" | relURL }}">论文与引用</a>
+        <a class="btn" href="{{ "cv/" | relURL }}">简历 / CV</a>
+        <a class="btn" href="{{ "contact/" | relURL }}">联系方式</a>
+      </div>
+      <div class="hero-links">
+        {{- range $p.links }}<a href="{{ .url }}" target="_blank" rel="noopener me">{{ .label }}<span aria-hidden="true">↗</span></a>{{ end -}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <section class="section is-tinted">
+    <div class="section-head">
+      <p class="eyebrow">Metrics</p>
+      <h2>学术指标</h2>
+      <p class="section-desc">引用指标由 OpenAlex 按 ORCID 自动同步并去重计算，论文清单来自 ORCID 公共 API。</p>
+    </div>
+    {{ partial "metrics.html" . }}
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="eyebrow">Research</p>
+      <h2>研究方向</h2>
+      <p class="section-desc">六个相互支撑的方向：从城市热环境机制，到形态与蓝绿空间的调节作用，再到规划响应。</p>
+    </div>
+    <div class="grid-3 research-grid">
+      {{- range $i, $r := $s.research }}
+      {{- $icon := index $icons (mod $i (len $icons)) }}
+      <article class="card research-card">
+        <span class="research-icon">{{ partial "icon.html" $icon }}</span>
+        <h3>{{ $r.title }}<span class="en">{{ $r.title_en }}</span></h3>
+        <p>{{ $r.description }}</p>
+        <div class="tag-row">{{ range $r.keywords }}<span class="tag">{{ . }}</span>{{ end }}</div>
+      </article>
+      {{- end }}
+    </div>
+    <p class="more-link"><a href="{{ "research/" | relURL }}">查看研究方向详情 <span aria-hidden="true">→</span></a></p>
+  </section>
+
+  <section class="section is-tinted">
+    <div class="section-head">
+      <p class="eyebrow">Publications</p>
+      <h2>近期成果</h2>
+      <p class="section-desc">按年份排列，作者中加粗的为本人。被引次数来自 OpenAlex。</p>
+    </div>
+    {{ partial "publications.html" (dict "limit" (.Site.Params.homePublicationLimit | default 6) "toolbar" false) }}
+    <p class="more-link"><a href="{{ "publications/" | relURL }}">查看全部 {{ site.Data.publications.total }} 条成果 <span aria-hidden="true">→</span></a></p>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="eyebrow">Service</p>
+      <h2>学术服务</h2>
+      <p class="section-desc">期刊编辑与同行评审，均由 ORCID 公开记录自动同步。</p>
+    </div>
+    <div class="grid-2">
+      <div class="card service-card">
+        <h3>期刊编辑</h3>
+        {{- with $t.services }}
+        <ul class="plain-list">
+          {{- range . }}
+          <li><span class="li-role">{{ .role }}</span><span class="li-org">{{ .organization }}</span></li>
+          {{- end }}
+        </ul>
+        {{- else }}
+        <p class="muted">暂未公开编辑任职记录。</p>
+        {{- end }}
+        <p class="source-note">来源：ORCID 公开记录（自动同步）</p>
+      </div>
+
+      <div class="card service-card">
+        <h3>同行评审</h3>
+        {{- if and $rj $rj.available (gt (len $rj.items) 0) }}
+        <p class="service-lead">累计 <strong>{{ $rj.total_reviews }}</strong> 次审阅，覆盖 <strong>{{ $rj.journal_count }}</strong> 个期刊{{ if and $rj.year_from $rj.year_to }}（{{ $rj.year_from }}–{{ $rj.year_to }}）{{ end }}。</p>
+        {{ partial "review-journals.html" (dict "compact" true "limit" 6) }}
+        <p class="source-note"><a href="{{ "teaching/" | relURL }}#review-journals">查看全部审稿期刊 <span aria-hidden="true">→</span></a></p>
+        {{- else }}
+        <p class="muted">审阅记录暂未公开。</p>
+        {{- end }}
+      </div>
+    </div>
+  </section>
+
+  {{- with $s.news }}
+  <section class="section">
+    <div class="section-head">
+      <p class="eyebrow">News</p>
+      <h2>动态</h2>
+    </div>
+    <ul class="timeline">
+      {{- range . }}<li><div class="t-head">{{ .text }}</div><div class="t-date">{{ .date }}</div></li>{{ end }}
+    </ul>
+  </section>
+  {{- end }}
+
+</div>
+{{ end }}

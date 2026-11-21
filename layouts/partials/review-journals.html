@@ -1,0 +1,57 @@
+{{- /* 审稿期刊：数据来自 ORCID peer-review 记录，由 scripts/sync_peer_reviews.py 自动同步。
+      compact=true 输出紧凑标签云（首页用），否则输出带进度条的完整列表（学术服务页用）。
+      无可用数据时整个模块不输出任何内容。 */ -}}
+{{- $rj := site.Data.review_journals -}}
+{{- $limit := .limit | default 0 -}}
+{{- $compact := .compact | default false -}}
+{{- if and $rj $rj.available (gt (len $rj.items) 0) -}}
+<div class="review-module{{ if $compact }} is-compact{{ end }}">
+  <div class="review-stats">
+    <span><strong>{{ $rj.journal_count }}</strong> 个期刊</span>
+    <span class="sep" aria-hidden="true"></span>
+    <span><strong>{{ $rj.total_reviews }}</strong> 次审阅</span>
+    {{- if and $rj.year_from $rj.year_to -}}
+    <span class="sep" aria-hidden="true"></span>
+    <span>{{ $rj.year_from }}–{{ $rj.year_to }}</span>
+    {{- end -}}
+  </div>
+
+  {{- $items := $rj.items -}}
+  {{- if gt $limit 0 -}}{{- $items = first $limit $items -}}{{- end -}}
+
+  {{- if $compact -}}
+  <ul class="review-chips">
+    {{- range $items -}}
+    {{- $href := .url | default (printf "https://portal.issn.org/resource/ISSN/%s" .issn) -}}
+    <li>
+      <a class="review-chip" href="{{ $href }}" target="_blank" rel="noopener"
+         title="{{ .name }}{{ with .publisher }} · {{ . }}{{ end }} · 审阅 {{ .reviews }} 次">
+        <span class="review-badge" aria-hidden="true">{{ .initials }}</span>
+        <span class="review-name">{{ .name }}</span>
+        <span class="review-count">{{ .reviews }}</span>
+      </a>
+    </li>
+    {{- end -}}
+  </ul>
+  {{- else -}}
+  <ul class="review-list">
+    {{- range $items -}}
+    {{- $href := .url | default (printf "https://portal.issn.org/resource/ISSN/%s" .issn) -}}
+    <li class="review-row">
+      <span class="review-badge" aria-hidden="true">{{ .initials }}</span>
+      <div class="review-main">
+        <a class="review-title" href="{{ $href }}" target="_blank" rel="noopener">{{ .name }}</a>
+        <div class="review-meta">
+          {{- with .publisher }}<span>{{ . }}</span>{{ end -}}
+          {{- if .issn }}<span class="mono">ISSN {{ .issn }}</span>{{ end -}}
+          {{- if and .first_year .last_year }}<span>{{ .first_year }}–{{ .last_year }}</span>{{ end -}}
+        </div>
+        <div class="review-bar" aria-hidden="true"><span style="width:{{ .share }}%"></span></div>
+      </div>
+      <div class="review-num">{{ .reviews }}<small>次</small></div>
+    </li>
+    {{- end -}}
+  </ul>
+  {{- end -}}
+</div>
+{{- end -}}

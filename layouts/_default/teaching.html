@@ -1,0 +1,83 @@
+{{ define "main" }}
+{{- $s := site.Data.site -}}
+{{- $t := site.Data.timeline -}}
+{{- $rj := site.Data.review_journals -}}
+<div class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Teaching &amp; Service</p>
+    <h1>{{ .Title }}</h1>
+    <p class="desc">期刊编辑、同行评审、教育与任职经历。</p>
+  </div>
+  <div class="prose">{{ .Content }}</div>
+
+  {{- with $s.teaching }}
+  <h2>课程教学</h2>
+  <div class="grid-2">
+    {{- range . }}
+    <div class="card">
+      <h3>{{ .course }}{{ with .course_en }}<span class="en">{{ . }}</span>{{ end }}</h3>
+      <p class="pub-meta">{{ .role }}{{ with .level }} · {{ . }}{{ end }}{{ with .period }} · {{ . }}{{ end }}</p>
+      {{- with .description }}<p>{{ . }}</p>{{ end -}}
+    </div>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <h2>期刊编辑与学术服务</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>角色</th><th>期刊 / 机构</th><th>起始</th><th>结束</th></tr></thead>
+      <tbody>
+        {{- range $t.services }}
+        <tr><td>{{ .role }}</td><td>{{ .organization }}</td><td>{{ .start | default "—" }}</td><td>{{ .end | default "至今" }}</td></tr>
+        {{- else }}
+        <tr><td colspan="4">暂未公开编辑任职记录。</td></tr>
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
+  <p class="source-note">来源：ORCID 公开记录（自动同步）。</p>
+
+  {{- if and $rj $rj.available (gt (len $rj.items) 0) }}
+  <h2 id="review-journals">审稿期刊</h2>
+  <p class="section-lede">
+    以下为 ORCID 公开记录中作为<strong>审稿人</strong>完成同行评审的期刊，按审阅次数排序。
+    {{- if and $rj.year_from $rj.year_to }} 覆盖 {{ $rj.year_from }}–{{ $rj.year_to }} 年。{{ end }}
+  </p>
+  {{ partial "review-journals.html" (dict "compact" false) }}
+  <p class="source-note">
+    来源：ORCID peer-review 公开记录（自动同步）；期刊名按 ISSN 经 Crossref / OpenAlex 解析。
+    仅统计 reviewer 角色，共 {{ $rj.total_reviews }} 次审阅、{{ $rj.journal_count }} 个期刊。
+  </p>
+  {{- end }}
+
+  <h2>教育与任职</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>教育背景</h3>
+      <ul class="timeline">
+        {{- range $t.education }}
+        <li>
+          <div class="t-head">{{ .organization }}</div>
+          <div class="t-sub">{{ .role | default "—" }}{{ with .department }} · {{ . }}{{ end }}</div>
+          {{- if or .start .end }}<div class="t-date">{{ .start | default "—" }} – {{ .end | default "至今" }}</div>{{ end -}}
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+    <div class="card">
+      <h3>任职</h3>
+      <ul class="timeline">
+        {{- range $t.employment }}
+        <li>
+          <div class="t-head">{{ .organization }}</div>
+          <div class="t-sub">{{ .role | default "—" }}{{ with .city }} · {{ . }}{{ end }}</div>
+          {{- if or .start .end }}<div class="t-date">{{ .start | default "—" }} – {{ .end | default "至今" }}</div>{{ end -}}
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+  <p class="source-note">来源：ORCID 公开记录（自动同步）。</p>
+</div>
+{{ end }}

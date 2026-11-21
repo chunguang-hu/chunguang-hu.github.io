@@ -1,0 +1,127 @@
+{
+  "name": "Chunguang Hu",
+  "tagline": "城市热环境与可持续城市研究",
+  "headline": "城市热环境 · 城市形态 · 蓝绿基础设施 · 生态韧性",
+  "affiliation": "Peking University",
+  "affiliation_zh": "北京大学",
+  "location": "Beijing, China",
+  "email": "chunguangh@foxmail.com",
+  "email_alt": "huchunguang@stu.pku.edu.cn",
+  "avatar": "/images/avatar.svg",
+  "cv_file": "/downloads/cv.pdf",
+  "cv_note": "把正式 CV 另存为 static/downloads/cv-official.pdf，并把此处 cv_file 指向它；cv.pdf 由脚本自动生成",
+  "links": [
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0003-6832-3957",
+      "icon": "orcid"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=XJVXW4YAAAAJ&hl=zh-CN",
+      "icon": "scholar"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Chunguang-Hu-2",
+      "icon": "rg"
+    },
+    {
+      "label": "OpenAlex",
+      "url": "https://openalex.org/authors/A5103083652",
+      "icon": "openalex"
+    }
+  ],
+  "research": [
+    {
+      "title": "城市热环境与热舒适",
+      "title_en": "Urban Thermal Environment & Thermal Comfort",
+      "description": "基于遥感与多源城市数据，刻画城市热岛、热暴露风险网络与居民热舒适的时空分异，识别热/冷核心的演化模式与驱动机制。",
+      "keywords": [
+        "城市热岛",
+        "热暴露风险",
+        "地表温度",
+        "局地气候区"
+      ]
+    },
+    {
+      "title": "2D/3D 城市形态与气候响应",
+      "title_en": "2D/3D Urban Morphology & Climate Response",
+      "description": "量化建筑高度、建筑足迹、城市形态异质性对地表温度与热环境的影响，揭示跨城乡梯度与城市功能区的空间非平稳性。",
+      "keywords": [
+        "城市形态",
+        "建筑足迹",
+        "空间异质性",
+        "机器学习"
+      ]
+    },
+    {
+      "title": "蓝绿基础设施与城市降温",
+      "title_en": "Blue–Green Infrastructure & Urban Cooling",
+      "description": "评估城市绿地、水体与蓝绿空间的降温效应及其非线性阈值，构建参数化量化框架，服务于气候适应型规划。",
+      "keywords": [
+        "蓝绿基础设施",
+        "降温效应",
+        "非线性阈值",
+        "自然解决方案"
+      ]
+    },
+    {
+      "title": "土地利用变化与生态韧性",
+      "title_en": "Land Use Change & Ecological Resilience",
+      "description": "研究土地利用/覆被变化、国土空间碳中和路径、生态韧性与城乡梯度上的生态公平问题。",
+      "keywords": [
+        "土地利用",
+        "生态韧性",
+        "碳中和",
+        "环境公平"
+      ]
+    },
+    {
+      "title": "遥感与地理空间人工智能",
+      "title_en": "Remote Sensing & GeoAI",
+      "description": "融合多时相遥感、高时空分辨率 NDVI 与可解释机器学习/深度学习方法，开展城市环境监测与预测建模。",
+      "keywords": [
+        "遥感",
+        "可解释 AI",
+        "时空融合",
+        "目标检测"
+      ]
+    },
+    {
+      "title": "城市大气污染与暴露",
+      "title_en": "Urban Air Pollution & Exposure",
+      "description": "分析 PM2.5 与气溶胶污染的空间分异、地理屏障效应以及城市绿地的调节作用。",
+      "keywords": [
+        "PM2.5",
+        "大气污染",
+        "暴露评估",
+        "绿地调节"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "基于网络模型的流域聚落热暴露风险识别与精准缓解",
+      "title_en": "Identification and Targeted Mitigation of Heat Exposure Risk in Watershed Settlements Based on Network Models",
+      "role": "主持 / 承担",
+      "funding": "中国矿业大学（Contract）",
+      "period": "2025.11 – 2026.12",
+      "status": "在研",
+      "description": "以网络模型识别流域聚落的热暴露风险格局并提出靶向缓解策略。数据来源：ORCID 公开记录。",
+      "tags": [
+        "热暴露风险",
+        "网络分析",
+        "气候适应"
+      ]
+    }
+  ],
+  "teaching": [],
+  "service": "auto",
+  "news": [
+    {
+      "date": "2026",
+      "text": "担任 Discover Cities、Asian Journal of Water, Environment and Pollution 等期刊客座编辑。"
+    }
+  ]
+}
