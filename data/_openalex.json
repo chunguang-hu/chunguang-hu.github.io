@@ -1,13 +1,13 @@
 {
   "orcid": "0009-0003-6832-3957",
   "source": "https://api.openalex.org",
-  "fetched_at": "2026-11-21T08:33:53Z",
+  "fetched_at": "2026-11-23T12:43:54Z",
   "authors": [
     {
       "id": "A5103083652",
       "url": "https://openalex.org/A5103083652",
       "name": "Chunguang Hu",
-      "cited_by_count": 1076,
+      "cited_by_count": 1083,
       "works_count": 42,
       "h_index": 19,
       "i10_index": 24,
@@ -82,19 +82,19 @@
           "year": 2024,
           "works_count": 6,
           "oa_works_count": 5,
-          "cited_by_count": 118
+          "cited_by_count": 117
         },
         {
           "year": 2025,
           "works_count": 10,
           "oa_works_count": 6,
-          "cited_by_count": 424
+          "cited_by_count": 427
         },
         {
           "year": 2026,
           "works_count": 10,
           "oa_works_count": 7,
-          "cited_by_count": 400
+          "cited_by_count": 405
         }
       ]
     },
@@ -102,7 +102,7 @@
       "id": "A5126642634",
       "url": "https://openalex.org/A5126642634",
       "name": "Chunguang Hu",
-      "cited_by_count": 45,
+      "cited_by_count": 46,
       "works_count": 7,
       "h_index": 3,
       "i10_index": 2,
@@ -120,7 +120,7 @@
           "year": 2026,
           "works_count": 6,
           "oa_works_count": 1,
-          "cited_by_count": 45
+          "cited_by_count": 46
         }
       ]
     },
@@ -146,11 +146,11 @@
     }
   ],
   "deduplication": "按 DOI 去重，多个重复作者档案中同一论文只计一次",
-  "works_count": 50,
-  "total_citations": 1123,
+  "works_count": 51,
+  "total_citations": 1133,
   "h_index": 20,
   "i10_index": 26,
-  "max_citations": 123,
+  "max_citations": 124,
   "citations_by_year": [
     {
       "year": 2003,
@@ -205,32 +205,31 @@
     {
       "year": 2024,
       "works": 6,
-      "citations": 118
+      "citations": 117
     },
     {
       "year": 2025,
       "works": 11,
-      "citations": 424
+      "citations": 427
     },
     {
       "year": 2026,
       "works": 17,
-      "citations": 445
+      "citations": 451
     }
   ],
   "per_doi_citations": {
-    "10.3390/land11020213": 123,
-    "10.3390/atmos15111375": 121,
-    "10.1016/j.scs.2024.105916": 100,
+    "10.3390/land11020213": 124,
+    "10.3390/atmos15111375": 123,
+    "10.1016/j.scs.2024.105916": 101,
     "10.1016/j.eiar.2025.107895": 61,
-    "10.3390/land13111909": 54,
-    "10.1016/j.scs.2025.106357": 54,
-    "10.3390/land14030598": 42,
+    "10.3390/land13111909": 56,
+    "10.1016/j.scs.2025.106357": 55,
+    "10.3390/land14030598": 43,
     "10.1016/j.scs.2025.106402": 42,
     "10.1016/j.enbuild.2025.116220": 36,
-    "10.3390/su17031085": 32,
+    "10.3390/su17031085": 34,
     "10.1016/j.eiar.2026.108401": 26,
-    "10.1016/j.scs.2025.106865": 15,
     "10.3390/rs14051292": 43,
     "10.1109/jstars.2021.3105586": 41,
     "10.3390/rs14236036": 34,
@@ -238,6 +237,7 @@
     "10.3389/feart.2023.1226795": 30,
     "10.3389/fenvs.2022.927818": 29,
     "10.1007/s11769-023-1397-2": 28,
+    "10.1016/j.scs.2025.106865": 15,
     "10.1080/17538947.2026.2616889": 14,
     "10.1016/j.rse.2026.115311": 12,
     "10.1016/j.landurbplan.2026.105725": 11,
@@ -261,6 +261,7 @@
     "10.1080/13504509.2026.2698121": 0,
     "10.1016/j.enbuild.2026.118156": 0,
     "10.5281/zenodo.22281416": 0,
+    "10.1016/j.envres.2026.125570": 0,
     "10.3389/fenvs.2026.1938446": 0,
     "10.1109/jstars.2026.3739890": 0,
     "10.48550/arxiv.2610.27486": 0,
@@ -367,6 +368,15 @@
       "openalex_id": "https://openalex.org/W7124571187"
     },
     {
+      "key": "10.1016/j.envres.2026.125570",
+      "doi": "10.1016/j.envres.2026.125570",
+      "title": "Low-dose bicarbonate promoting hydrogen peroxide conversion to hydroxyl radicals for heterogeneous photo-Fenton degradation of neonicotinoids through copper hydroxyphosphate",
+      "year": 2026,
+      "cited_by_count": 0,
+      "type": "article",
+      "openalex_id": "https://openalex.org/W7211902774"
+    },
+    {
       "key": "10.1109/jstars.2026.3739890",
       "doi": "10.1109/jstars.2026.3739890",
       "title": "MNOPNet: A Lightweight Rotated Object Detection Network for Small-Scale Wildfire Detection",
@@ -452,7 +462,7 @@
       "doi": "10.3390/su17031085",
       "title": "Evaluating the Influence of Environmental, Social, and Governance (ESG) Performance on Green Technology Innovation: Based on Chinese A-Share Listed Companies",
       "year": 2025,
-      "cited_by_count": 32,
+      "cited_by_count": 34,
       "type": "article",
       "openalex_id": "https://openalex.org/W4406933896"
     },
@@ -461,7 +471,7 @@
       "doi": "10.1016/j.scs.2025.106357",
       "title": "Investigating the quantitative impact of the vegetation indices on the urban thermal comfort based on machine learning: A case study of the Qinhuai River Basin, China",
       "year": 2025,
-      "cited_by_count": 54,
+      "cited_by_count": 55,
       "type": "article",
       "openalex_id": "https://openalex.org/W4409195573"
     },
@@ -470,7 +480,7 @@
       "doi": "10.3390/land14030598",
       "title": "Spatiotemporal Dynamics and Response of Land Surface Temperature and Kernel Normalized Difference Vegetation Index in Yangtze River Economic Belt, China: Multi-Method Analysis",
       "year": 2025,
-      "cited_by_count": 42,
+      "cited_by_count": 43,
       "type": "article",
       "openalex_id": "https://openalex.org/W4408414445"
     },
@@ -551,7 +561,7 @@
       "doi": "10.3390/atmos15111375",
       "title": "Impact of Urban Surfaces on Microclimatic Conditions and Thermal Comfort in Burdur, Türkiye",
       "year": 2024,
-      "cited_by_count": 121,
+      "cited_by_count": 123,
       "type": "article",
       "openalex_id": "https://openalex.org/W4404373409"
     },
@@ -560,7 +570,7 @@
       "doi": "10.3390/land13111909",
       "title": "Spatiotemporal Changes and Influencing Factors of the Coupled Production–Living–Ecological Functions in the Yellow River Basin, China",
       "year": 2024,
-      "cited_by_count": 54,
+      "cited_by_count": 56,
       "type": "article",
       "openalex_id": "https://openalex.org/W4404345028"
     },
@@ -569,7 +579,7 @@
       "doi": "10.1016/j.scs.2024.105916",
       "title": "Tracking the impact of the land cover change on the spatial-temporal distribution of the thermal comfort: Insights from the Qinhuai River Basin, China",
       "year": 2024,
-      "cited_by_count": 100,
+      "cited_by_count": 101,
       "type": "article",
       "openalex_id": "https://openalex.org/W4403538989"
     },
@@ -596,7 +606,7 @@
       "doi": "10.3390/land11020213",
       "title": "Combining MSPA-MCR Model to Evaluate the Ecological Network in Wuhan, China",
       "year": 2022,
-      "cited_by_count": 123,
+      "cited_by_count": 124,
       "type": "article",
       "openalex_id": "https://openalex.org/W4210820463"
     },

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21T12:43:45Z",
+  "generated_at": "2026-11-23T12:43:54Z",
   "openalex": {
     "available": true,
-    "works_count": 50,
-    "total_citations": 1123,
+    "works_count": 51,
+    "total_citations": 1133,
     "h_index": 20,
     "i10_index": 26,
-    "max_citations": 123,
+    "max_citations": 124,
     "citations_by_year": [
       {
         "year": 2003,
@@ -61,17 +61,17 @@
       {
         "year": 2024,
         "works": 6,
-        "citations": 118
+        "citations": 117
       },
       {
         "year": 2025,
         "works": 11,
-        "citations": 424
+        "citations": 427
       },
       {
         "year": 2026,
         "works": 17,
-        "citations": 445
+        "citations": 451
       }
     ],
     "author_count": 3,
